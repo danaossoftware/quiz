@@ -346,6 +346,7 @@ function toNextQuestion() {
                 });
                 $("#prompt-no").on("click", function () {
                 });
+                $("#answer-result-panel").find("*").remove();
                 return;
             }
             var realAnswer = parseInt(question.correct_answer);
