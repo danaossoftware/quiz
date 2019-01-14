@@ -93,6 +93,7 @@ function loadQuestions() {
 }
 
 function loadQuestion(index) {
+    $("#next-question").css("display", "block");
     $("#question-img-container").css("display", "none");
     $("#current-question").html("Soal " + (+index + 1) + " dari " + totalQuestions);
     var question = questions[index];
@@ -235,6 +236,74 @@ function toNextQuestion() {
     });
     $("#prompt-yes").html("Ya");
     $("#prompt-yes").on("click", function() {
+        $("#next-question").css("display", "none");
+        $("#next-question-2-container").css("display", "flex");
+        $("#next-question-2").on("click", function() {
+            if (currentQuestion < totalQuestions - 1) {
+                currentQuestion++;
+                $("#current-question").html("Soal " + (currentQuestion + 1) + " dari " + totalQuestions);
+                $("#answers").find("*").each(function () {
+                    if ($(this).prop("tagName") == "LABEL") {
+                        $(this).find("input").prop("checked", false);
+                        $(this).find(".check-img").css("opacity", "0");
+                    }
+                });
+                if (currentQuestion == totalQuestions - 1) {
+                    $("#next-question").html("Selesai");
+                }
+                $("#fader").fadeIn(200, function () {
+                    loadQuestion(currentQuestion);
+                    $("#fader").fadeOut(200);
+                });
+                window.localStorage.setItem("current-question", currentQuestion);
+            } else {
+                $("#prompt-title").html("Konfirmasi");
+                $("#prompt-text").html("Apakah Anda yakin ingin menyelesaikan latihan ini?");
+                $("#prompt-yes").html("Ya");
+                $("#prompt-no").html("Tidak");
+                $("#prompt-no").css("display", "flex");
+                $("#prompt").css("display", "flex");
+                $("#prompt-yes").on("click", function () {
+                    $("#prompt-yes").off("click");
+                    $.ajax({
+                        type: 'GET',
+                        url: PHP_PATH + 'get-session.php',
+                        dataType: 'text',
+                        cache: false,
+                        success: function (a) {
+                            var session = JSON.parse(a);
+                            var userId = session.userId;
+                            $.ajax({
+                                type: 'POST',
+                                url: PHP_PATH + 'add-question-data.php',
+                                dataType: 'text',
+                                data: {
+                                    'user-id': userId,
+                                    'question-ids': questionIds,
+                                    'answer-types': answerTypes,
+                                    'scores': scores,
+                                    'answers': userAnswers,
+                                    'wrong-answer-positions': wrongAnswerPositions
+                                },
+                                cache: false,
+                                success: function (a) {
+                                    window.location.href = "http://ilatih.com/quiz/score.html";
+                                },
+                                error: function (a, b, c) {
+                                    alert(b + ' ' + c);
+                                }
+                            });
+                        },
+                        error: function (a, b, c) {
+                            alert(b + ' ' + c);
+                        }
+                    });
+                });
+                $("#prompt-no").on("click", function () {
+                    $("#prompt").css("display", "none");
+                });
+            }
+        });
         var questionType = questions[currentQuestion].type;
         if (questionType == "pilihan") {
             // Check if no checkbox is checked
@@ -325,70 +394,6 @@ function toNextQuestion() {
             scores.push(score);
             var answer1 = $("#answer-1").val();
             userAnswers.push(answer1);
-        }
-        if (currentQuestion < totalQuestions - 1) {
-            currentQuestion++;
-            $("#current-question").html("Soal " + (currentQuestion + 1) + " dari " + totalQuestions);
-            $("#answers").find("*").each(function () {
-                if ($(this).prop("tagName") == "LABEL") {
-                    $(this).find("input").prop("checked", false);
-                    $(this).find(".check-img").css("opacity", "0");
-                }
-            });
-            if (currentQuestion == totalQuestions - 1) {
-                $("#next-question").html("Selesai");
-            }
-            $("#fader").fadeIn(200, function () {
-                loadQuestion(currentQuestion);
-                $("#fader").fadeOut(200);
-            });
-            window.localStorage.setItem("current-question", currentQuestion);
-        } else {
-            $("#prompt-title").html("Konfirmasi");
-            $("#prompt-text").html("Apakah Anda yakin ingin menyelesaikan latihan ini?");
-            $("#prompt-yes").html("Ya");
-            $("#prompt-no").html("Tidak");
-            $("#prompt-no").css("display", "flex");
-            $("#prompt").css("display", "flex");
-            $("#prompt-yes").on("click", function () {
-                $("#prompt-yes").off("click");
-                $.ajax({
-                    type: 'GET',
-                    url: PHP_PATH + 'get-session.php',
-                    dataType: 'text',
-                    cache: false,
-                    success: function (a) {
-                        var session = JSON.parse(a);
-                        var userId = session.userId;
-                        $.ajax({
-                            type: 'POST',
-                            url: PHP_PATH + 'add-question-data.php',
-                            dataType: 'text',
-                            data: {
-                                'user-id': userId,
-                                'question-ids': questionIds,
-                                'answer-types': answerTypes,
-                                'scores': scores,
-                                'answers': userAnswers,
-                                'wrong-answer-positions': wrongAnswerPositions
-                            },
-                            cache: false,
-                            success: function (a) {
-                                window.location.href = "http://ilatih.com/quiz/score.html";
-                            },
-                            error: function (a, b, c) {
-                                alert(b + ' ' + c);
-                            }
-                        });
-                    },
-                    error: function (a, b, c) {
-                        alert(b + ' ' + c);
-                    }
-                });
-            });
-            $("#prompt-no").on("click", function () {
-                $("#prompt").css("display", "none");
-            });
         }
     });
 }
