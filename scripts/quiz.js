@@ -235,7 +235,6 @@ function toNextQuestion() {
     });
     $("#prompt-yes").html("Ya");
     $("#prompt-yes").on("click", function() {
-
         var questionType = questions[currentQuestion].type;
         if (questionType == "pilihan") {
             // Check if no checkbox is checked
@@ -271,10 +270,15 @@ function toNextQuestion() {
             if (answer == realAnswer) {
                 score = CORRECT_ANSWER_SCORE;
                 answerTypes.push(1);
+                $("#answer-result").html("Jawaban Anda benar");
+                $("#answer-result").css("color", "#27ae60")
             } else {
                 score = WRONG_ANSWER_SCORE;
-                answerTypes.push(0);
+                answerTypes.push(0)
+                $("#answer-result").html("Jawaban Anda salah");
+                $("#answer-result").css("color", "#e74c3c");
             }
+            $("#answer-result").css("display", "block");
             questionIds.push(questions[currentQuestion].id);
             scores.push(score);
             wrongAnswerPositions.push("");
