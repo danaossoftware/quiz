@@ -306,7 +306,8 @@ function toNextQuestion() {
                 });
             }
         });
-        var questionType = questions[currentQuestion].type;
+        var question = questions[currentQuestion];
+        var questionType = question.type;
         if (questionType == "pilihan") {
             // Check if no checkbox is checked
             var totalChecked = 0;
@@ -336,7 +337,6 @@ function toNextQuestion() {
                 });
                 return;
             }
-            var question = questions[currentQuestion];
             var realAnswer = parseInt(question.correct_answer);
             var score = 0;
             if (answer == realAnswer) {
@@ -349,11 +349,7 @@ function toNextQuestion() {
                 answerTypes.push(0)
                 $("#answer-result").html("Jawaban Anda salah");
                 $("#answer-result").css("color", "#e74c3c");
-                if (question.type == "pilihan") {
-                    $("#real-answer").html(question.correct_answer);
-                } else if (question.type == "isian") {
-                    $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
-                }
+                $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
                 $("#reason").html(question.reason);
                 $("#reason-container").css("display", "block");
             }
@@ -396,6 +392,11 @@ function toNextQuestion() {
                 score += CORRECT_ANSWER_SCORE;
                 score = WRONG_ANSWER_SCORE;
                 answerTypes.push(0);
+                $("#answer-result").html("Jawaban Anda salah");
+                $("#answer-result").css("color", "#e74c3c");
+                $("#real-answer").html(question.correct_answer);
+                $("#reason").html(question.reason);
+                $("#reason-container").css("display", "block");
             }
             questionIds.push(questions[currentQuestion].id);
             scores.push(score);
