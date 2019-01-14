@@ -14,6 +14,30 @@
         <div id="current-question" style="margin-left: 20px;">&nbsp;</div>
     </div>
     <div style="width: 89%; margin-left: 50px; display: flex; justify-content: center; flex-flow: row nowrap; margin-right: 100px; margin-top: 30px;">
+        <div id="question-panel"
+             style="border-radius: 5px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); background-color: white; width: 50%; margin-left: 7px; padding: 30px; position: relative; min-height: 300px;">
+            <div style="font-family: 'PalanquinBold', Arial; font-size: 18px;">Pertanyaan:</div>
+            <div style="width: 100%; display: flex; justify-content: center; flex-flow: row nowrap; margin-top: 20px;">
+                <div id="question-img-container"
+                     style="display: none; justify-content: center; align-items: center; flex-flow: column nowrap;">
+                    <img id="question-img" src="img/bab-placeholder.jpg" width="200px" height="200px"
+                         style="cursor: pointer; border-radius: 5px;">
+                    <div style="color: #888888; font-size: 12px;"><i>Klik gambar untuk memperbesar</i></div>
+                </div>
+                <video id="question-video" width="200px" height="200px" style="display: none; background-color: black; border-radius: 5px; margin-left: 10px;" controls>
+                    <source id="question-video-source" src="video/video2.mp4">
+                </video>
+            </div>
+            <div id="question-audio-container" style="width: 100%; display: none; justify-content: center; margin-top: 10px;">
+                <audio id="question-audio" controls>
+                    <source id="question-audio-source" src="audio/song.mp3">
+                </audio>
+            </div>
+            <div id="question" style="margin-top: 10px;"></div>
+            <div style="display: flex; justify-content: flex-end; margin-top: 20px; margin-right: 10px;">
+                <button id="next-question" onclick="toNextQuestion()" class="button2">Berikutnya</button>
+            </div>
+        </div>
         <div id="answer-panel"
              style="border-radius: 5px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); background-color: white; width: 50%; margin-right: 7px; padding: 30px; display: flex; flex-flow: column nowrap;">
             <div style="font-family: 'PalanquinBold', Arial; font-size: 18px;">Jawaban:</div>
@@ -47,30 +71,9 @@
                 <button id="next-question-2" class="button1">Lanjut</button>
             </div>
         </div>
-        <div id="question-panel"
-             style="border-radius: 5px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); background-color: white; width: 50%; margin-left: 7px; padding: 30px; position: relative; min-height: 300px;">
-            <div style="font-family: 'PalanquinBold', Arial; font-size: 18px;">Pertanyaan:</div>
-            <div style="width: 100%; display: flex; justify-content: center; flex-flow: row nowrap; margin-top: 20px;">
-                <div id="question-img-container"
-                     style="display: none; justify-content: center; align-items: center; flex-flow: column nowrap;">
-                    <img id="question-img" src="img/bab-placeholder.jpg" width="200px" height="200px"
-                         style="cursor: pointer; border-radius: 5px;">
-                    <div style="color: #888888; font-size: 12px;"><i>Klik gambar untuk memperbesar</i></div>
-                </div>
-                <video id="question-video" width="200px" height="200px" style="display: none; background-color: black; border-radius: 5px; margin-left: 10px;" controls>
-                    <source id="question-video-source" src="video/video2.mp4">
-                </video>
-            </div>
-            <div id="question-audio-container" style="width: 100%; display: none; justify-content: center; margin-top: 10px;">
-                <audio id="question-audio" controls>
-                    <source id="question-audio-source" src="audio/song.mp3">
-                </audio>
-            </div>
-            <div id="question" style="margin-top: 10px;"></div>
-            <div style="display: flex; justify-content: flex-end; margin-top: 20px; margin-right: 10px;">
-                <button id="next-question" onclick="toNextQuestion()" class="button2">Berikutnya</button>
-            </div>
-        </div>
+    </div>
+    <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
+        <button onclick="backToHome()" class="button1">Kembali ke Beranda</button>
     </div>
 </div>
 <div id="prompt"

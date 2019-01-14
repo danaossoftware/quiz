@@ -409,3 +409,18 @@ function toNextQuestion() {
 function closeImagePreview() {
     $("#preview-img-container").css("display", "none");
 }
+
+function backToHome() {
+    $("#prompt-no").html("Tidak");
+    $("#prompt-no").css("display", "block");
+    $("#prompt-no").on("click", function() {
+        $("#prompt").css("display", "none");
+    });
+    $("#prompt-yes").html("Ya");
+    $("#prompt-yes").on("click", function() {
+        window.location.href = "home.html";
+    });
+    $("#prompt-title").html("Kembali ke Beranda");
+    $("#prompt-text").html("Apakah Anda yakin ingin menyelesaikan tes ini dan kembali ke Beranda?")
+    $("#prompt").css("display", "flex");
+}
