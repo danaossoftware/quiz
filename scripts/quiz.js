@@ -237,6 +237,7 @@ function toNextQuestion() {
     });
     $("#prompt-yes").html("Ya");
     $("#prompt-yes").on("click", function() {
+        $("#prompt").css("display", "none");
         $("#next-question").css("display", "none");
         $("#next-question-2-container").css("display", "flex");
         $("#next-question-2").on("click", function() {
