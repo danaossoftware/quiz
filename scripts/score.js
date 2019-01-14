@@ -89,7 +89,7 @@ function loadScore(userId) {
                     totalWrong++;
                     if (!firstQuestionAdded) {
                         firstQuestionAdded = true;
-                        addQuestion(i);
+                        //addQuestion(i);
                     }
                 }
             }
