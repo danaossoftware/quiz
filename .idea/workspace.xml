@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/get-random-questions.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/get-random-questions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +20,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+            <state relative-caret-position="135">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="280" column="56" selection-start-line="280" selection-start-column="56" selection-end-line="280" selection-end-column="56" />
+            <state relative-caret-position="373">
+              <caret line="281" column="63" selection-start-line="281" selection-start-column="63" selection-end-line="281" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
@@ -76,9 +78,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/get-random-questions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="328" selection-start-line="8" selection-start-column="328" selection-end-line="8" selection-end-column="328" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/score.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="17">
               <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
             </state>
           </provider>
@@ -87,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/score.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2244">
-              <caret line="132" column="131" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="131" />
+            <state relative-caret-position="203">
+              <caret line="135" column="20" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -104,8 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>confirm</find>
-      <find>logo.png</find>
       <find>logo-white</find>
       <find>localhost</find>
       <find>logout</find>
@@ -134,6 +143,8 @@
       <find>ujicoba</find>
       <find>jawaban yang benar</find>
       <find>currentQuestion++</find>
+      <find>correct_</find>
+      <find>reason</find>
     </findStrings>
     <replaceStrings>
       <replace>-30px</replace>
@@ -179,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/score.css" />
         <option value="$PROJECT_DIR$/score-mobile.html" />
         <option value="$PROJECT_DIR$/chapters-mobile.html" />
         <option value="$PROJECT_DIR$/courses-mobile.html" />
@@ -228,6 +238,7 @@
         <option value="$PROJECT_DIR$/css/signup.css" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/scripts/score-mobile.js" />
+        <option value="$PROJECT_DIR$/scripts/get-random-questions.php" />
         <option value="$PROJECT_DIR$/quiz.html" />
         <option value="$PROJECT_DIR$/scripts/quiz.js" />
       </list>
@@ -347,12 +358,12 @@
       <workItem from="1547441199646" duration="1718000" />
       <workItem from="1547476434106" duration="142000" />
       <workItem from="1547476681933" duration="2427000" />
-      <workItem from="1547479856514" duration="961000" />
+      <workItem from="1547479856514" duration="1264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185570000" />
+    <option name="totallyTimeSpent" value="185873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -800,13 +811,6 @@
     <entry file="file://$PROJECT_DIR$/profile.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/get-random-questions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/score-mobile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -848,24 +852,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/score.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="17">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/get-random-questions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="328" selection-start-line="8" selection-start-column="328" selection-end-line="8" selection-end-column="328" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/score.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="132" column="131" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="131" />
+        <state relative-caret-position="203">
+          <caret line="135" column="20" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        <state relative-caret-position="135">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -878,8 +890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="280" column="56" selection-start-line="280" selection-start-column="56" selection-end-line="280" selection-end-column="56" />
+        <state relative-caret-position="373">
+          <caret line="281" column="63" selection-start-line="281" selection-start-column="63" selection-end-line="281" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />

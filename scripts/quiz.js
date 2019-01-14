@@ -277,6 +277,9 @@ function toNextQuestion() {
                 answerTypes.push(0)
                 $("#answer-result").html("Jawaban Anda salah");
                 $("#answer-result").css("color", "#e74c3c");
+                $("#real-answer").html(questions[currentQuestion].correct_answer);
+                $("#reason").html(questions[currentQuestion].reason);
+                $("#reason-container").css("display", "block");
             }
             $("#answer-result").css("display", "block");
             questionIds.push(questions[currentQuestion].id);
