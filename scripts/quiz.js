@@ -181,7 +181,7 @@ function loadQuestion(index) {
         "<div style=\"color: black; font-family: 'PalanquinBold', Arial; font-size: 18px;\">Alasan:</div>\n" +
         "<div id=\"reason\" style=\"color: black; font-family: 'PalanquinRegular', Arial;\">Ini adalah alasan.</div>\n" +
         "</div>\n" +
-        "<div id=\"next-question-2-container\" style=\"display: none; margin-top: 20px; width: calc(100% - 40px); display: flex; justify-content: flex-end;\">\n" +
+        "<div id=\"next-question-2-container\" style=\"margin-top: 20px; width: calc(100% - 40px); display: none; justify-content: flex-end;\">\n" +
         "<button id=\"next-question-2\" class=\"button1\">Lanjut</button>\n" +
         "</div>");
     if (question.picture_url != '') {
