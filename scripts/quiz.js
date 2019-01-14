@@ -59,7 +59,7 @@ function initialize() {
     });
     currentQuestion = window.localStorage.getItem("current-question");
     currentQuestion = 0;
-    $("#answer-result-panel").find("*").remove();
+    //$("#answer-result-panel").find("*").remove();
     loadQuestions();
     setItemCheckBoxListener();
 }
@@ -94,6 +94,7 @@ function loadQuestions() {
 }
 
 function loadQuestion(index) {
+    $("#answer-panel").find("#answer-result").remove();
     $("#next-question").css("display", "block");
     $("#next-question-2-container").css("display", "none");
     $("#question-img-container").css("display", "none");
@@ -174,7 +175,7 @@ function loadQuestion(index) {
         $("#question-audio")[0].load();
         $("#question-audio-container").css("display", "flex");
     }
-    $("#answer-result-panel").append("<div id=\"answer-result\" style=\"display: none; color: #27ae60; font-family: 'PalanquinBold'; font-size: 18px; margin-left: 20px; margin-top: 30px;\">Jawaban Anda benar</div>\n" +
+    $("#answer-panel").append("<div id=\"answer-result\" style=\"display: none; color: #27ae60; font-family: 'PalanquinBold'; font-size: 18px; margin-left: 20px; margin-top: 30px;\">Jawaban Anda benar</div>\n" +
         "<div id=\"reason-container\" style=\"display: none; margin-left: 20px; margin-right: 20px; width: calc(100% - 70px); border-radius: 10px; border: 1px solid #c08175; background-color: rgba(254, 108, 93, 0.4); padding: 15px;\">\n" +
         "<div style=\"color: black; font-family: 'PalanquinBold', Arial; font-size: 18px;\">Jawaban yang Benar:</div>\n" +
         "<div id=\"real-answer\" style=\"color: black; font-family: 'PalanquinRegular', Arial;\">Ini adalah jawaban yang benar.</div>\n" +
@@ -346,7 +347,7 @@ function toNextQuestion() {
                 });
                 $("#prompt-no").on("click", function () {
                 });
-                $("#answer-result-panel").find("*").remove();
+                //$("#answer-result-panel").find("*").remove();
                 return;
             }
             var realAnswer = parseInt(question.correct_answer);

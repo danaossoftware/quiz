@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="348" column="61" selection-start-line="348" selection-start-column="61" selection-end-line="348" selection-end-column="61" />
+            <state relative-caret-position="306">
+              <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
@@ -91,10 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@</find>
-      <find>answer-2</find>
-      <find>answer1</find>
-      <find>answer2</find>
       <find>isian</find>
       <find>WRONG_ANSWER_SCORE</find>
       <find>get-que</find>
@@ -119,8 +116,12 @@
       <find>news</find>
       <find>7px</find>
       <find>jawaban yang benar</find>
-      <find>answer-result</find>
       <find>apakah anda</find>
+      <find>answer-result</find>
+      <find>remove</find>
+      <find>answer-panel</find>
+      <find>tonextquestion</find>
+      <find>loadq</find>
     </findStrings>
     <replaceStrings>
       <replace>-30px</replace>
@@ -336,12 +337,12 @@
       <workItem from="1547476681933" duration="2427000" />
       <workItem from="1547479856514" duration="2059000" />
       <workItem from="1547482652454" duration="2000" />
-      <workItem from="1547507632211" duration="1034000" />
+      <workItem from="1547507632211" duration="1185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187704000" />
+    <option name="totallyTimeSpent" value="187855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -851,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -866,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="348" column="61" selection-start-line="348" selection-start-column="61" selection-end-line="348" selection-end-column="61" />
+        <state relative-caret-position="306">
+          <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
