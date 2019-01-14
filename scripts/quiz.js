@@ -240,6 +240,104 @@ function setItemCheckBoxListener() {
 }
 
 function toNextQuestion() {
+    var question = questions[currentQuestion];
+    var questionType = question.type;
+    if (questionType == "pilihan") {
+        // Check if no checkbox is checked
+        var totalChecked = 0;
+        var answer = -1;
+        var i = 0;
+        $("#answers").find("*").each(function () {
+            if ($(this).attr("class") == "check-img") {
+                var checkBox = $(this).parent().find("input");
+                var checked = checkBox.prop("checked");
+                if (checked) {
+                    totalChecked++;
+                    answer = i;
+                }
+                i++;
+            }
+        });
+        if (totalChecked == 0) {
+            $("#prompt-title").html("Peringatan");
+            $("#prompt-text").html("Mohon centang salah satu pilihan");
+            $("#prompt-no").css("display", "none");
+            $("#prompt-yes").html("OK");
+            $("#prompt").css("display", "flex");
+            $("#prompt-yes").on("click", function () {
+                $("#prompt").css("display", "none");
+            });
+            $("#prompt-no").on("click", function () {
+            });
+            //$("#answer-result-panel").find("*").remove();
+            return;
+        }
+        var realAnswer = parseInt(question.correct_answer);
+        var score = 0;
+        if (answer == realAnswer) {
+            score = CORRECT_ANSWER_SCORE;
+            answerTypes.push(1);
+            $("#answer-result").html("Jawaban Anda benar");
+            $("#answer-result").css("color", "#27ae60")
+        } else {
+            score = WRONG_ANSWER_SCORE;
+            answerTypes.push(0)
+            $("#answer-result").html("Jawaban Anda salah");
+            $("#answer-result").css("color", "#e74c3c");
+            $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
+            $("#reason").html(question.reason);
+            $("#reason-container").css("display", "block");
+        }
+        $("#answer-result").css("display", "block");
+        questionIds.push(question.id);
+        scores.push(score);
+        wrongAnswerPositions.push("");
+        userAnswers.push("" + answer);
+    } else if (questionType == "isian") {
+        var answers = questions[currentQuestion].answers;
+        var splittedAnswers = answers.split("@");
+        var score = 0;
+        var allCorrect = true;
+        var wrongPositions = "";
+        for (var i = 0; i < 1; i++) {
+            var realAnswer = splittedAnswers[i];
+            var answer = $("#answer-" + (i + 1)).val();
+            if (answer == '') {
+                $("#prompt-title").html("Peringatan");
+                $("#prompt-text").html("Mohon isi semua jawaban sebelum melanjutkan");
+                $("#prompt-yes").html("OK");
+                $("#prompt-no").css("display", "none");
+                $("#prompt").css("display", "flex");
+                $("#prompt-yes").on("click", function () {
+                    $("#prompt").css("display", "none");
+                });
+                return;
+            }
+            if (answer.toLowerCase() != realAnswer.toLowerCase()) {
+                allCorrect = false;
+                wrongPositions += ("" + i + "@");
+            }
+        }
+        wrongPositions = wrongPositions.substr(0, wrongPositions.length - 1);
+        wrongAnswerPositions.push(wrongPositions);
+        if (allCorrect) {
+            score = CORRECT_ANSWER_SCORE;
+            answerTypes.push(1);
+        } else {
+            score += CORRECT_ANSWER_SCORE;
+            score = WRONG_ANSWER_SCORE;
+            answerTypes.push(0);
+            $("#answer-result").html("Jawaban Anda salah");
+            $("#answer-result").css("color", "#e74c3c");
+            $("#real-answer").html(question.correct_answer);
+            $("#reason").html(question.reason);
+            $("#reason-container").css("display", "block");
+        }
+        questionIds.push(questions[currentQuestion].id);
+        scores.push(score);
+        var answer1 = $("#answer-1").val();
+        userAnswers.push(answer1);
+    }
     $("#prompt-title").html("Konfirmasi");
     $("#prompt-text").html("Apakah Anda yakin dengan jawaban Anda?");
     $("#prompt").css("display", "flex");
@@ -318,104 +416,6 @@ function toNextQuestion() {
                 });
             }
         });
-        var question = questions[currentQuestion];
-        var questionType = question.type;
-        if (questionType == "pilihan") {
-            // Check if no checkbox is checked
-            var totalChecked = 0;
-            var answer = -1;
-            var i = 0;
-            $("#answers").find("*").each(function () {
-                if ($(this).attr("class") == "check-img") {
-                    var checkBox = $(this).parent().find("input");
-                    var checked = checkBox.prop("checked");
-                    if (checked) {
-                        totalChecked++;
-                        answer = i;
-                    }
-                    i++;
-                }
-            });
-            if (totalChecked == 0) {
-                $("#prompt-title").html("Peringatan");
-                $("#prompt-text").html("Mohon centang salah satu pilihan");
-                $("#prompt-no").css("display", "none");
-                $("#prompt-yes").html("OK");
-                $("#prompt").css("display", "flex");
-                $("#prompt-yes").on("click", function () {
-                    $("#prompt").css("display", "none");
-                });
-                $("#prompt-no").on("click", function () {
-                });
-                //$("#answer-result-panel").find("*").remove();
-                return;
-            }
-            var realAnswer = parseInt(question.correct_answer);
-            var score = 0;
-            if (answer == realAnswer) {
-                score = CORRECT_ANSWER_SCORE;
-                answerTypes.push(1);
-                $("#answer-result").html("Jawaban Anda benar");
-                $("#answer-result").css("color", "#27ae60")
-            } else {
-                score = WRONG_ANSWER_SCORE;
-                answerTypes.push(0)
-                $("#answer-result").html("Jawaban Anda salah");
-                $("#answer-result").css("color", "#e74c3c");
-                $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
-                $("#reason").html(question.reason);
-                $("#reason-container").css("display", "block");
-            }
-            $("#answer-result").css("display", "block");
-            questionIds.push(question.id);
-            scores.push(score);
-            wrongAnswerPositions.push("");
-            userAnswers.push("" + answer);
-        } else if (questionType == "isian") {
-            var answers = questions[currentQuestion].answers;
-            var splittedAnswers = answers.split("@");
-            var score = 0;
-            var allCorrect = true;
-            var wrongPositions = "";
-            for (var i = 0; i < 1; i++) {
-                var realAnswer = splittedAnswers[i];
-                var answer = $("#answer-" + (i + 1)).val();
-                if (answer == '') {
-                    $("#prompt-title").html("Peringatan");
-                    $("#prompt-text").html("Mohon isi semua jawaban sebelum melanjutkan");
-                    $("#prompt-yes").html("OK");
-                    $("#prompt-no").css("display", "none");
-                    $("#prompt").css("display", "flex");
-                    $("#prompt-yes").on("click", function () {
-                        $("#prompt").css("display", "none");
-                    });
-                    return;
-                }
-                if (answer.toLowerCase() != realAnswer.toLowerCase()) {
-                    allCorrect = false;
-                    wrongPositions += ("" + i + "@");
-                }
-            }
-            wrongPositions = wrongPositions.substr(0, wrongPositions.length - 1);
-            wrongAnswerPositions.push(wrongPositions);
-            if (allCorrect) {
-                score = CORRECT_ANSWER_SCORE;
-                answerTypes.push(1);
-            } else {
-                score += CORRECT_ANSWER_SCORE;
-                score = WRONG_ANSWER_SCORE;
-                answerTypes.push(0);
-                $("#answer-result").html("Jawaban Anda salah");
-                $("#answer-result").css("color", "#e74c3c");
-                $("#real-answer").html(question.correct_answer);
-                $("#reason").html(question.reason);
-                $("#reason-container").css("display", "block");
-            }
-            questionIds.push(questions[currentQuestion].id);
-            scores.push(score);
-            var answer1 = $("#answer-1").val();
-            userAnswers.push(answer1);
-        }
     });
 }
 
