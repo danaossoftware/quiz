@@ -412,7 +412,7 @@ function closeImagePreview() {
 
 function backToHome() {
     $("#prompt-no").html("Tidak");
-    $("#prompt-no").css("display", "block");
+    $("#prompt-no").css("display", "flex");
     $("#prompt-no").on("click", function() {
         $("#prompt").css("display", "none");
     });
