@@ -335,7 +335,8 @@ function toNextQuestion() {
                 });
                 return;
             }
-            var realAnswer = parseInt(questions[currentQuestion].correct_answer);
+            var question = questions[currentQuestion];
+            var realAnswer = parseInt(question.correct_answer);
             var score = 0;
             if (answer == realAnswer) {
                 score = CORRECT_ANSWER_SCORE;
@@ -347,12 +348,16 @@ function toNextQuestion() {
                 answerTypes.push(0)
                 $("#answer-result").html("Jawaban Anda salah");
                 $("#answer-result").css("color", "#e74c3c");
-                $("#real-answer").html(questions[currentQuestion].correct_answer);
-                $("#reason").html(questions[currentQuestion].reason);
+                if (question.type == "pilihan") {
+                    $("#real-answer").html(question.correct_answer);
+                } else if (question.type == "isian") {
+                    $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
+                }
+                $("#reason").html(question.reason);
                 $("#reason-container").css("display", "block");
             }
             $("#answer-result").css("display", "block");
-            questionIds.push(questions[currentQuestion].id);
+            questionIds.push(question.id);
             scores.push(score);
             wrongAnswerPositions.push("");
             userAnswers.push("" + answer);
