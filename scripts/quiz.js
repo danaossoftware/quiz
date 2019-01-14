@@ -94,6 +94,7 @@ function loadQuestions() {
 
 function loadQuestion(index) {
     $("#next-question").css("display", "block");
+    $("#next-question-2-container").css("display", "none");
     $("#question-img-container").css("display", "none");
     $("#current-question").html("Soal " + (+index + 1) + " dari " + totalQuestions);
     var question = questions[index];
