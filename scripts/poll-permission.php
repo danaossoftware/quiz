@@ -1,4 +1,6 @@
 <?php
+echo "Hello 2";
+return;
 include 'db.php';
 session_start();
 $userId = $_SESSION["dnquiz_user_id"];

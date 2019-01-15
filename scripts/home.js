@@ -129,6 +129,7 @@ function initialize() {
         url: PHP_PATH+'poll-permission.php',
         dataType: 'text',
         cache: false,
+        async: true,
         success: function(a) {
             alert(a);
             return;
