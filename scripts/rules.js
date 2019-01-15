@@ -47,9 +47,12 @@ $(document).ready(function() {
             dataType: 'text',
             cache: false,
             success: function(a) {
+                alert(a);
+                return;
                 if (a < 0) {
                     // Not granted
-
+                    $('#prompt-text').html("Anda belum diizinkan dosen untuk melakukan tes ini. Silahkan hubungi dosen terkait.");
+                    $("#prompt").css("display", "flex");
                 } else {
                     var permission = JSON.parse(a);
                     alert(permission.granted);
@@ -76,6 +79,9 @@ $(document).ready(function() {
         error: function(a, b, c) {
 
         }
+    });
+    $("#prompt-ok").on("click", function() {
+
     });
 });
 
