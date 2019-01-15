@@ -289,7 +289,7 @@ function toNextQuestion() {
         var wrongPositions = "";
         for (var i = 0; i < 1; i++) {
             var realAnswer = splittedAnswers[i];
-            var answer = $("#answer-" + (i + 1)).val();
+            var answer = $("#isian-answer").val();
             if (answer == '') {
                 $("#prompt-title").html("Peringatan");
                 $("#prompt-text").html("Mohon isi semua jawaban sebelum melanjutkan");
