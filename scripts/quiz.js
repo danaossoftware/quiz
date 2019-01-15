@@ -94,7 +94,7 @@ function loadQuestions() {
 }
 
 function loadQuestion(index) {
-    $("#answer-panel").find("#answer-result").remove();
+    $("#answer-result-container").css("display", "none");
     $("#next-question").css("display", "block");
     $("#next-question-2-container").css("display", "none");
     $("#question-img-container").css("display", "none");
