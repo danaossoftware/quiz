@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/send-report.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-report.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/contact-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/contact-us.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/contact-us.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="143" column="21" lean-forward="true" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -38,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/send-report.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -193,9 +193,9 @@
         <option value="$PROJECT_DIR$/scripts/quiz.js" />
         <option value="$PROJECT_DIR$/contact-us.html" />
         <option value="$PROJECT_DIR$/scripts/add-report.php" />
-        <option value="$PROJECT_DIR$/scripts/contact-us.js" />
         <option value="$PROJECT_DIR$/scripts/mail.php" />
         <option value="$PROJECT_DIR$/scripts/send-report.php" />
+        <option value="$PROJECT_DIR$/scripts/contact-us.js" />
       </list>
     </option>
   </component>
@@ -319,12 +319,12 @@
       <workItem from="1547507632211" duration="3673000" />
       <workItem from="1547532297905" duration="2227000" />
       <workItem from="1547534951408" duration="825000" />
-      <workItem from="1547543187365" duration="15308000" />
+      <workItem from="1547543187365" duration="15366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208703000" />
+    <option name="totallyTimeSpent" value="208761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -849,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/contact-us.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="143" column="21" lean-forward="true" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/PHPMailer.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -873,6 +866,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="76" lean-forward="true" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/contact-us.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
         </state>
       </provider>
     </entry>

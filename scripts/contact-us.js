@@ -141,7 +141,6 @@ function sendReport() {
         dataType: 'text',
         cache: false,
         success: function(a) {
-            alert(a);
             alert("Laporan berhasil dikirim");
             window.location.href = "http://ilatih.com/quiz/home.html";
         },
