@@ -144,7 +144,6 @@ function initialize() {
                             data: {'id': permission.chapter_id},
                             dataType: 'text',
                             cache: false,
-                            async: false,
                             success: function(a) {
                                 alert(a);
                                 return;
@@ -155,7 +154,6 @@ function initialize() {
                                     data: {'id': permission.course_id},
                                     dataType: 'text',
                                     cache: false,
-                                    async: false,
                                     success: function(a) {
                                         var courseName = JSON.parse(a).name;
                                         var url = "http://ilatih.com/quiz/rules.html?course_id="+permission.course_id+"&chapter_id="+permission.chapter_id;
