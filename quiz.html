@@ -24,11 +24,13 @@
                          style="cursor: pointer; border-radius: 5px;">
                     <div style="color: #888888; font-size: 12px;"><i>Klik gambar untuk memperbesar</i></div>
                 </div>
-                <video id="question-video" width="200px" height="200px" style="display: none; background-color: black; border-radius: 5px; margin-left: 10px;" controls>
+                <video id="question-video" width="200px" height="200px"
+                       style="display: none; background-color: black; border-radius: 5px; margin-left: 10px;" controls>
                     <source id="question-video-source" src="video/video2.mp4">
                 </video>
             </div>
-            <div id="question-audio-container" style="width: 100%; display: none; justify-content: center; margin-top: 10px;">
+            <div id="question-audio-container"
+                 style="width: 100%; display: none; justify-content: center; margin-top: 10px;">
                 <audio id="question-audio" controls>
                     <source id="question-audio-source" src="audio/song.mp3">
                 </audio>
@@ -42,23 +44,61 @@
              style="border-radius: 5px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); background-color: white; width: 50%; margin-left: 7px; padding: 30px; display: flex; flex-flow: column nowrap;">
             <div style="font-family: 'PalanquinBold', Arial; font-size: 18px;">Jawaban:</div>
             <div id="answers" style="margin-top: 10px;">
-                <!--<div style="width: 100%; height: 100%; display: flex; align-items: center; align-content: center;">
-                    <label style="margin-top: 10px; position: relative; user-select: none;">&nbsp;
-                        <input type="checkbox" onclick="return false;"
-                               style="visibility: visible; position: absolute; width: 0; height: 0; opacity: 0;">
-                        <div class="check">&nbsp;</div>
-                        <div class="check-img">
-                            <img src="img/check.png" width="12px" height="12px"
-                                 style="position: relative; left:2px; top:-6px;">
-                        </div>
-                    </label>
-                </div>-->
-                <!--<div style="font-family: 'PalanquinBold', Arial; font-size: 15px; color: black;">Jawaban 1:</div>
-                <input class="input1" style="margin-top: 5px;" type="text" name="answerA" id="answer-a">-->
-                <!-- JAWAB DENGAN SUARA -->
-                <!--<div style="width: 100%; display: flex; justify-content: center; align-items: center;">
-                    <button class="flat-button">Jawab Dengan Suara</button>
-                </div>-->
+                <div style="position: relative;">
+                    <!-- ANSWER A -->
+                    <div id="answer-a-container" style="position: absolute; left: 0; top: 0; width: 100%; display: none; flex-flow: row nowrap; margin-top: 10px;">
+                        <label style="margin-top: 10px; position: relative; user-select: none;">&nbsp;
+                            <input type="checkbox" onclick="return false;"
+                                   style="visibility: visible; position: absolute; width: 0; height: 0; opacity: 0;">
+                            <div class="check">&nbsp;</div>
+                            <div class="check-img">
+                                <img src="img/check.png" width="12px" height="12px"
+                                     style="position: relative; left:2px; top:-6px;">
+                            </div>
+                        </label>
+                        <div id="answer-a" style="margin-left: 20px; font-size: 18px;"></div>
+                    </div>
+                    <!-- ANSWER B -->
+                    <div id="answer-b-container" style="position: absolute; left: 0; top: 40px; width: 100%; display: none; flex-flow: row nowrap; margin-top: 10px;">
+                        <label style="margin-top: 10px; position: relative; user-select: none;">&nbsp;
+                            <input type="checkbox" onclick="return false;"
+                                   style="visibility: visible; position: absolute; width: 0; height: 0; opacity: 0;">
+                            <div class="check">&nbsp;</div>
+                            <div class="check-img">
+                                <img src="img/check.png" width="12px" height="12px"
+                                     style="position: relative; left:2px; top:-6px;">
+                            </div>
+                        </label>
+                        <div id="answer-b" style="margin-left: 20px; font-size: 18px;"></div>
+                    </div>
+                    <!-- ANSWER C -->
+                    <div id="answer-c-container" style="position: absolute; left: 0; top: 80px; width: 100%; display: none; flex-flow: row nowrap; margin-top: 10px;">
+                        <label style="margin-top: 10px; position: relative; user-select: none;">&nbsp;
+                            <input type="checkbox" onclick="return false;"
+                                   style="visibility: visible; position: absolute; width: 0; height: 0; opacity: 0;">
+                            <div class="check">&nbsp;</div>
+                            <div class="check-img">
+                                <img src="img/check.png" width="12px" height="12px"
+                                     style="position: relative; left:2px; top:-6px;">
+                            </div>
+                        </label>
+                        <div id="answer-c" style="margin-left: 20px; font-size: 18px;"></div>
+                    </div>
+                    <!-- ANSWER D -->
+                    <div id="answer-d-container" style="position: absolute; left: 0; top: 120px; width: 100%; display: none; flex-flow: row nowrap; margin-top: 10px;">
+                        <label style="margin-top: 10px; position: relative; user-select: none;">&nbsp;
+                            <input type="checkbox" onclick="return false;"
+                                   style="visibility: visible; position: absolute; width: 0; height: 0; opacity: 0;">
+                            <div class="check">&nbsp;</div>
+                            <div class="check-img">
+                                <img src="img/check.png" width="12px" height="12px"
+                                     style="position: relative; left:2px; top:-6px;">
+                            </div>
+                        </label>
+                        <div id="answer-d" style="margin-left: 20px; font-size: 18px;"></div>
+                    </div>
+                </div>
+                <input id="isian-answer" type="text" class="input1" style="display: none; position: absolute; left: 0; top: 0;">
             </div>
             <!-- ANSWER RESULT -->
         </div>

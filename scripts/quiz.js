@@ -106,17 +106,7 @@ function loadQuestion(index) {
     var answerC = answers.split("@")[2];
     var answerD = answers.split("@")[3];
     if (question.type == "pilihan") {
-        var items = "<div style=\"width: 100%; height: 100%; display: flex; flex-flow: row nowrap; margin-top: 10px;\">" +
-            "<label style=\"margin-top: 10px; position: relative; user-select: none;\">&nbsp;" +
-            "<input type=\"checkbox\" onclick=\"return false;\"" +
-            "style=\"visibility: visible; position: absolute; width: 0; height: 0; opacity: 0;\">" +
-            "<div class=\"check\">&nbsp;</div>" +
-            "<div class=\"check-img\">" +
-            "<img src=\"img/check.png\" width=\"12px\" height=\"12px\"" +
-            "style=\"position: relative; left:2px; top:-6px;\">" +
-            "</div>" +
-            "</label>" +
-            "<div style=\"margin-left: 20px; font-size: 18px;\">" + answerA + "</div></div>";
+        /*var items = "";
         items += "<div style=\"width: 100%; height: 100%; display: flex; flex-flow: row nowrap; margin-top: -32px\">" +
             "<label style=\"margin-top: 10px; position: relative; user-select: none;\">&nbsp;" +
             "<input type=\"checkbox\" onclick=\"return false;\"" +
@@ -150,20 +140,28 @@ function loadQuestion(index) {
             "</div>" +
             "</label>" +
             "<div style=\"margin-left: 20px; font-size: 18px;\">" + answerD + "</div></div>";
-        $("#answers").html(items);
+        $("#answers").html(items);*/
+        $("#answer-a").html(answerA);
+        $("#answer-b").html(answerB);
+        $("#answer-c").html(answerC);
+        $("#answer-d").html(answerD);
+        $("#answer-a-container").css("display", "flex");
+        $("#answer-b-container").css("display", "flex");
+        $("#answer-c-container").css("display", "flex");
+        $("#answer-d-container").css("display", "flex");
+        $("#isian-answer").css("display", "none");
     } else if (question.type == "isian") {
-        var items = "";
+        /*var items = "";
         for (var i = 0; i < 1; i++) {
             items += "<div style=\"font-family: 'PalanquinBold', Arial; font-size: 15px; color: black;\">Jawaban " + (i + 1) + ":</div>\n" +
                 "<input class=\"input1\" style=\"margin-top: 5px;\" type=\"text\" name=\"answer-" + (i + 1) + "\" id=\"answer-" + (i + 1) + "\">";
-        }
-        /*var isChrome = !!window.chrome && !!window.chrome.webstore;
-        if (isChrome) {
-            items += "<div style=\"margin-top: 10px; width: 100%; display: flex; justify-content: center; align-items: center;\">\n" +
-                "<button id=\"answer-with-voice\" class=\"flat-button\">Jawab Dengan Suara</button>\n" +
-                "</div>";
         }*/
-        $("#answers").html(items);
+        //$("#answers").html(items);
+        $("#answer-a-container").css("display", "none");
+        $("#answer-b-container").css("display", "none");
+        $("#answer-c-container").css("display", "none");
+        $("#answer-d-container").css("display", "none");
+        $("#isian-answer").css("display", "block");
     }
     if (question.video_url != '') {
         $("#question-video-source").attr("src", question.video_url);
