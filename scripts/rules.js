@@ -40,7 +40,25 @@ $(document).ready(function() {
         });
     });
     $("#start-exam").on("click", function() {
-        window.location.href = "quiz.html?course_id="+courseId+"&chapter_id="+chapterId;
+        $.ajax({
+            type: 'GET',
+            url: PHP_PATH+'check-permission.php',
+            data: {'chapter-id': chapterId, 'course-id': courseId},
+            dataType: 'text',
+            cache: false,
+            success: function(a) {
+                if (a < 0) {
+                    // Not granted
+
+                } else {
+                    var permission = JSON.parse(a);
+                    alert(permission.granted);
+                    if (permission.granted == 1) {
+                        window.location.href = "quiz.html?course_id="+courseId+"&chapter_id="+chapterId;
+                    }
+                }
+            }
+        });
     });
     $.ajax({
         type: 'GET',
