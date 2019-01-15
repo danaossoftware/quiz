@@ -130,7 +130,6 @@ function sendReport() {
     }
     var email = $("#email").val();
     var report = $("#report").val();
-    alert(report);
     if (email == '' || report == '') {
         $("#error").html("Mohon isi semua data dengan benar");
         $("#error").css("display", "block");
@@ -143,7 +142,7 @@ function sendReport() {
         dataType: 'text',
         cache: false,
         success: function(a) {
-            alert(a);
+            alert("Laporan berhasil dikirim");
             window.location.href = "http://ilatih.com/quiz/home.html";
         },
         error: function(a, b, c) {
