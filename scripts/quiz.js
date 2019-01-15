@@ -344,6 +344,7 @@ function toNextQuestion() {
     $("#prompt-yes").on("click", function() {
         $("#prompt-yes").off("click");
         $("#answer-result-container").css("display", "flex");
+        $("html, body").animate({ scrollTop: $(document).height() }, 1000);
         $("#prompt").css("display", "none");
         $("#next-question").css("display", "none");
         $("#next-question-2-container").css("display", "flex");

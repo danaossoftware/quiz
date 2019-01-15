@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/chapters-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/chapters-mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/chapters.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/chapters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/confirm-email.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/confirm-email.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/contact-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/contact-us.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/courses-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/courses-mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/edit-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/edit-profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/faq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/forgot-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/forgot-password.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/help.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/home-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home-mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/privacy-policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/privacy-policy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/reset-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reset-password.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/rules-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rules-mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rules.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/score-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/score-mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/score.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/send-verification-email.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-verification-email.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/signup.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,17 +48,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/quiz.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="211">
               <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
+            <state relative-caret-position="220">
+              <caret line="346" column="75" lean-forward="true" selection-start-line="346" selection-start-column="75" selection-end-line="346" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -88,17 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/score.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="220">
               <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/score.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="258" column="33" lean-forward="true" selection-start-line="258" selection-start-column="33" selection-end-line="258" selection-end-column="33" />
+            <state relative-caret-position="288">
+              <caret line="257" selection-start-line="257" selection-end-line="257" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -146,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://ilatih.com/quiz</find>
       <find>ujicoba</find>
       <find>currentQuestion++</find>
       <find>correct_</find>
@@ -176,6 +153,7 @@
       <find>loadq</find>
       <find>details-container</find>
       <find>alert(b+' '+c);</find>
+      <find>answer-result-container</find>
     </findStrings>
     <replaceStrings>
       <replace>-50px;</replace>
@@ -270,8 +248,8 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/quiz.html" />
         <option value="$PROJECT_DIR$/css/quiz.css" />
-        <option value="$PROJECT_DIR$/scripts/quiz.js" />
         <option value="$PROJECT_DIR$/scripts/score.js" />
+        <option value="$PROJECT_DIR$/scripts/quiz.js" />
       </list>
     </option>
   </component>
@@ -393,12 +371,12 @@
       <workItem from="1547482652454" duration="2000" />
       <workItem from="1547507632211" duration="3673000" />
       <workItem from="1547532297905" duration="2227000" />
-      <workItem from="1547534951408" duration="354000" />
+      <workItem from="1547534951408" duration="439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192924000" />
+    <option name="totallyTimeSpent" value="193009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -914,31 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/quiz.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/score.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/score.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="258" column="33" lean-forward="true" selection-start-line="258" selection-start-column="33" selection-end-line="258" selection-end-column="33" />
+        <state relative-caret-position="288">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -971,6 +928,27 @@
             <element signature="n#style#0;n#div#1;n#div#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#3;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/score.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/quiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="346" column="75" lean-forward="true" selection-start-line="346" selection-start-column="75" selection-end-line="346" selection-end-column="75" />
         </state>
       </provider>
     </entry>
