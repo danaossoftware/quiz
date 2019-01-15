@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
-    </list>
+    <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="276" column="49" lean-forward="true" selection-start-line="276" selection-start-column="49" selection-end-line="276" selection-end-column="49" />
+            <state relative-caret-position="271">
+              <caret line="327" column="69" selection-start-line="327" selection-start-column="69" selection-end-line="327" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -89,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tonextquestion</find>
       <find>tonextq</find>
       <find>answer-result</find>
       <find>display: none;</find>
@@ -119,6 +116,7 @@
       <find>padding</find>
       <find>score.html</find>
       <find>lightgreen</find>
+      <find>Jawaban Anda benar</find>
     </findStrings>
     <replaceStrings>
       <replace>-50px;</replace>
@@ -337,12 +335,12 @@
       <workItem from="1547507632211" duration="3673000" />
       <workItem from="1547532297905" duration="2227000" />
       <workItem from="1547534951408" duration="825000" />
-      <workItem from="1547543187365" duration="11339000" />
+      <workItem from="1547543187365" duration="11354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204734000" />
+    <option name="totallyTimeSpent" value="204749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -901,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="276" column="49" lean-forward="true" selection-start-line="276" selection-start-column="49" selection-end-line="276" selection-end-column="49" />
+        <state relative-caret-position="271">
+          <caret line="327" column="69" selection-start-line="327" selection-start-column="69" selection-end-line="327" selection-end-column="69" />
         </state>
       </provider>
     </entry>
