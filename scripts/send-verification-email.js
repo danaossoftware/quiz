@@ -9,7 +9,7 @@ $(document).ready(function() {
             $("#loading-container").css("display", "none");
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
     $("#login").on("click", function() {

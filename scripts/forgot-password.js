@@ -22,7 +22,7 @@ function sendResetEmail() {
             window.location.href = "http://ilatih.com/quiz/reset-email-sent.html";
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }

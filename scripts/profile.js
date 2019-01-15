@@ -25,7 +25,7 @@ $(document).ready(function() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 });
@@ -99,7 +99,7 @@ function initialize() {
             getQuestionData();
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
     $("#home").on("click", function() {
@@ -216,7 +216,7 @@ function getUserInfo() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }
@@ -246,7 +246,7 @@ function getPhotoCount() {
             loadPhotos();
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }
@@ -288,7 +288,7 @@ function loadPhotos() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }
@@ -322,7 +322,7 @@ function getQuestionData() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }

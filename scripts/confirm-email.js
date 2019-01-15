@@ -10,7 +10,7 @@ $(document).ready(function() {
         success: function(a) {
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
     $("#home").on("click", function() {

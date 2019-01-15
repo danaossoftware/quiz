@@ -36,7 +36,7 @@ $(document).ready(function () {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
     $("#home").on("click", function() {
@@ -181,7 +181,7 @@ function addQuestion(index) {
             });
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }
@@ -320,7 +320,7 @@ function share(method) {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }

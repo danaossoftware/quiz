@@ -25,7 +25,7 @@ $(document).ready(function() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 });
@@ -155,7 +155,7 @@ function loadNews() {
             $("#footer").css("display", "flex");
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
             $("#footer").css("display", "flex");
         }
     });
@@ -224,7 +224,7 @@ function loadCourses() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }

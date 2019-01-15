@@ -72,7 +72,7 @@ function loadNews() {
             $("#footer").css("display", "flex");
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
             $("#footer").css("display", "flex");
         }
     });

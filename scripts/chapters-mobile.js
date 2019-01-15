@@ -73,7 +73,7 @@ function loadChapters() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }

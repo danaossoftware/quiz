@@ -70,7 +70,7 @@ function loadCourses() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }

@@ -30,7 +30,7 @@ $(document).ready(function() {
                 window.location.href = "http://ilatih.com/quiz/password-changed.html";
             },
             error: function(a, b, c) {
-                alert(b+' '+c);
+
             }
         });
     });

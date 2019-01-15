@@ -56,7 +56,7 @@ $(document).ready(function() {
             $("#rules").html(rules);
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 });

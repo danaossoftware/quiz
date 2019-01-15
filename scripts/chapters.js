@@ -19,7 +19,7 @@ $(document).ready(function() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 });
@@ -74,7 +74,7 @@ function initialize() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
     $("#home").on("click", function() {

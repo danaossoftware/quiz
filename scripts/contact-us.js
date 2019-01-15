@@ -82,7 +82,7 @@ function loadSettings() {
             $("#report-address").html(address);
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }
@@ -115,7 +115,7 @@ function openSocialMedia(type) {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }
@@ -150,7 +150,7 @@ function sendReport() {
             window.location.href = "http://ilatih.com/quiz/home.html";
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }

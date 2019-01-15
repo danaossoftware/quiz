@@ -20,7 +20,7 @@ $(document).ready(function() {
             }
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 });
@@ -48,7 +48,7 @@ function initialize() {
             loadUserProfile();
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
     $("#home").on("click", function() {
@@ -125,7 +125,7 @@ function loadUserProfile() {
             $("#height").val(height);
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }
@@ -198,7 +198,7 @@ function saveProfileInfo() {
             window.location.href = "http://ilatih.com/quiz/profile.html";
         },
         error: function(a, b, c) {
-            alert(b+' '+c);
+
         }
     });
 }
