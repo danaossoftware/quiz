@@ -12,7 +12,7 @@ if ($results && $results->num_rows > 0) {
             while ($row = $results->fetch_assoc()) {
                 if ($row["granted"] == 1) {
                     $results = $c->query("SELECT * FROM permissions WHERE user_id='" . $userId . "'");
-                    echo $results->fetch_assoc()["id"];
+                    echo $results->fetch_assoc()["granted"];
                     return;
                 }
             }
