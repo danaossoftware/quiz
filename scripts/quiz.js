@@ -94,6 +94,11 @@ function loadQuestions() {
 }
 
 function loadQuestion(index) {
+    $("#isian-answer").val("");
+    $("#answer-a").html("");
+    $("#answer-b").html("");
+    $("#answer-c").html("");
+    $("#answer-d").html("");
     $("#answer-result-container").css("display", "none");
     $("#next-question").css("display", "block");
     $("#next-question-2-container").css("display", "none");
