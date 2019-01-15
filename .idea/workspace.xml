@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/contact-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/contact-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/add-report.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/add-report.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/contact-us.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="149" column="12" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="12" />
+            <state relative-caret-position="313">
+              <caret line="150" column="10" lean-forward="true" selection-start-line="150" selection-start-column="10" selection-end-line="150" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/add-report.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+              <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -190,9 +190,9 @@
         <option value="$PROJECT_DIR$/scripts/home.js" />
         <option value="$PROJECT_DIR$/scripts/remove-permission.php" />
         <option value="$PROJECT_DIR$/scripts/quiz.js" />
-        <option value="$PROJECT_DIR$/scripts/add-report.php" />
         <option value="$PROJECT_DIR$/contact-us.html" />
         <option value="$PROJECT_DIR$/scripts/contact-us.js" />
+        <option value="$PROJECT_DIR$/scripts/add-report.php" />
       </list>
     </option>
   </component>
@@ -315,12 +315,12 @@
       <workItem from="1547507632211" duration="3673000" />
       <workItem from="1547532297905" duration="2227000" />
       <workItem from="1547534951408" duration="825000" />
-      <workItem from="1547543187365" duration="12031000" />
+      <workItem from="1547543187365" duration="12099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205426000" />
+    <option name="totallyTimeSpent" value="205494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -859,17 +859,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/add-report.php">
+    <entry file="file://$PROJECT_DIR$/scripts/contact-us.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        <state relative-caret-position="313">
+          <caret line="150" column="10" lean-forward="true" selection-start-line="150" selection-start-column="10" selection-end-line="150" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/contact-us.js">
+    <entry file="file://$PROJECT_DIR$/scripts/add-report.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="149" column="12" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="12" />
+        <state relative-caret-position="68">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
         </state>
       </provider>
     </entry>
