@@ -25,7 +25,7 @@ function sendMail2($from, $dst, $subject, $msg) {
     $mail->Host = "smtp.gmail.com";
     $mail->Port = 465; // or 587
     $mail->IsHTML(true);
-    $mail->Username = "ilatih.lamintang@gmail.com";
+    $mail->Username = "ilatih.lamintang";
     $mail->Password = "TugasAkhir2018";
     $mail->SetFrom($from);
     $mail->Subject = $subject;
