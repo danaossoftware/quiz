@@ -276,7 +276,7 @@ function toNextQuestion() {
             $("#reason").html(question.reason);
             $("#reason-container").css("display", "block");
         }
-        $("#answer-result").css("display", "block");
+        $("#answer-result-container").css("display", "block");
         questionIds.push(question.id);
         scores.push(score);
         wrongAnswerPositions.push("");
