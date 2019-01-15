@@ -249,7 +249,7 @@ function endScoreAnimation() {
     setTimeout(function () {
         document.getElementById("score-container").style.transform = "translate(0, -70px)";
         //document.getElementById("score-details-container").style.transform = "translate(0, -90px)";
-        document.getElementById("details-container").style.transform = "translate(0, -20px)";
+        //document.getElementById("details-container").style.transform = "translate(0, -20px)";
         $("#score").animate({
             fontSize: "80px"
         }, 500);
