@@ -1,6 +1,4 @@
 <?php
-echo "Hello 2";
-return;
 include 'db.php';
 session_start();
 $userId = $_SESSION["dnquiz_user_id"];
@@ -23,6 +21,7 @@ if ($results && $results->num_rows > 0) {
             return;
         }
     }
+    echo "Hello 3";
 } else {
     echo -1;
 }
