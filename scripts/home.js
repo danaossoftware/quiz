@@ -124,6 +124,50 @@ function initialize() {
             }
         });
     });
+    $.ajax({
+        type: 'GET',
+        url: PHP_PATH+'poll-permission.php',
+        dataType: 'text',
+        cache: false,
+        success: function(a) {
+            if (a < 0) {
+                // Error
+            } else {
+                var permissions = JSON.parse(a);
+                for (var i=0; i<permissions.length; i++) {
+                    var permission = permissions[i];
+                    if (permission.granted == 1) {
+                        $.ajax({
+                            type: 'GET',
+                            url: PHP_PATH+'get-chapter.php',
+                            data: {'id': permission.chapter_id},
+                            dataType: 'text',
+                            cache: false,
+                            async: false,
+                            success: function(a) {
+                                var chapterName = JSON.parse(a).name;
+                                $.ajax({
+                                    type: 'GET',
+                                    url: PHP_PATH+'get-course.php',
+                                    data: {'id': permission.course_id},
+                                    dataType: 'text',
+                                    cache: false,
+                                    async: false,
+                                    success: function(a) {
+                                        var courseName = JSON.parse(a).name;
+                                        var url = "http://ilatih.com/quiz/rules.html?course_id="+permission.course_id+"&chapter_id="+permission.chapter_id;
+                                        $("#permission-notifications").append("<div style=\"width: calc(100% - 60px); height: 40px; border-radius: 10px; border: 1px solid darkgreen; background-color: lightgreen; padding: 10px; color: darkgreen; font-family: 'PalanquinBold';\">\n" +
+                                            "Dosen telah mengizinkan Anda mengakses tes online mata kuliah "+courseName+" bab "+chapterName+". Klik di <a href='"+url+"'>sini</a> untuk mulai ujian."+
+                                            "</div>");
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }
+            }
+        }
+    });
 }
 
 function loadNews() {
