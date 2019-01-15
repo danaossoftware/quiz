@@ -7,7 +7,7 @@ if ($results && $results->num_rows > 0) {
     $granted = $results->fetch_assoc()["granted"];
     while ($granted == 0) {
         sleep(5);
-        $results = $c->query("SELECT * FROM permissions WHERE user_id='" . $userId . "' AND chapter_id='" . $chapterId . "'");
+        $results = $c->query("SELECT * FROM permissions WHERE user_id='" . $userId . "'");
         if ($results && $results->num_rows > 0) {
             $granted = $results->fetch_assoc()["granted"];
         } else {
