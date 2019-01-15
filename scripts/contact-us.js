@@ -147,7 +147,7 @@ function sendReport() {
         cache: false,
         success: function(a) {
             alert("Laporan berhasil dikirim");
-            //window.location.href = "http://ilatih.com/quiz/home.html";
+            window.location.href = "http://ilatih.com/quiz/home.html";
         },
         error: function(a, b, c) {
 
