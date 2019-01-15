@@ -135,15 +135,11 @@ function sendReport() {
         $("#error").css("display", "block");
         return;
     }
-    var fd = new FormData();
-    fd.append("email", email);
-    fd.append("report", report);
     $.ajax({
         type: 'POST',
         url: PHP_PATH+'add-report.php',
-        processData: false,
-        contentType: false,
-        data: fd,
+        data: {'email': email, 'report': report},
+        dataType: 'text',
         cache: false,
         success: function(a) {
             alert("Laporan berhasil dikirim");
