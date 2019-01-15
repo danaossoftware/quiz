@@ -53,9 +53,11 @@ $(document).ready(function() {
                     $("#prompt").css("display", "flex");
                 } else {
                     var permission = JSON.parse(a);
-                    alert(permission.granted);
                     if (permission.granted == 1) {
                         window.location.href = "quiz.html?course_id="+courseId+"&chapter_id="+chapterId;
+                    } else {
+                        $('#prompt-text').html("Anda belum diizinkan dosen untuk melakukan tes ini. Silahkan hubungi dosen terkait.");
+                        $("#prompt").css("display", "flex");
                     }
                 }
             }
