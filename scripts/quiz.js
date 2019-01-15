@@ -337,11 +337,13 @@ function toNextQuestion() {
     });
     $("#prompt-yes").html("Ya");
     $("#prompt-yes").on("click", function() {
+        $("#prompt-yes").off("click");
         $("#answer-result-container").css("display", "flex");
         $("#prompt").css("display", "none");
         $("#next-question").css("display", "none");
         $("#next-question-2-container").css("display", "flex");
         $("#next-question-2").on("click", function() {
+            $("#next-question-2").off("click");
             if (currentQuestion < totalQuestions - 1) {
                 currentQuestion++;
                 $("#current-question").html("Soal " + (currentQuestion + 1) + " dari " + totalQuestions);
