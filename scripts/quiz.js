@@ -283,12 +283,11 @@ function toNextQuestion() {
         userAnswers.push("" + answer);
     } else if (questionType == "isian") {
         var answers = questions[currentQuestion].answers;
-        var splittedAnswers = answers.split("@");
         var score = 0;
         var allCorrect = true;
         var wrongPositions = "";
         for (var i = 0; i < 1; i++) {
-            var realAnswer = splittedAnswers[i];
+            var realAnswer = answers;
             var answer = $("#isian-answer").val();
             if (answer == '') {
                 $("#prompt-title").html("Peringatan");
@@ -311,6 +310,9 @@ function toNextQuestion() {
         if (allCorrect) {
             score = CORRECT_ANSWER_SCORE;
             answerTypes.push(1);
+            $("#answer-result").html("Jawaban Anda benar");
+            $("#answer-result").css("color", "#27ae60");
+            $("#reason-container").css("display", "none");
         } else {
             score += CORRECT_ANSWER_SCORE;
             score = WRONG_ANSWER_SCORE;
