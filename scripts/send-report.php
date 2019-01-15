@@ -1,7 +1,6 @@
 <?php
 include 'mail.php';
-$email = $_GET["email"];
-$report = $_GET["report"];
-$email = str_replace("%40", "@", $email);
+$email = urldecode($_GET["email"]);
+$report = urldecode($_GET["report"]);
 sendMail($email, "danaoscompany@gmail.com", "Keluhan Pengguna", $report);
 echo $report;
