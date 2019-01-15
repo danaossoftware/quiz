@@ -129,7 +129,6 @@ function sendReport() {
         return;
     }*/
     var email = $("#email").val().replace("@", "%40");
-    alert(email);
     var report = $("#report").val();
     if (email == '' || report == '') {
         $("#error").html("Mohon isi semua data dengan benar");
