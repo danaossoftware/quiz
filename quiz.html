@@ -44,7 +44,7 @@
              style="border-radius: 5px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); background-color: white; width: 50%; margin-left: 7px; padding: 30px; display: flex; flex-flow: column nowrap;">
             <div style="font-family: 'PalanquinBold', Arial; font-size: 18px;">Jawaban:</div>
             <div id="answers" style="margin-top: 10px;">
-                <div style="position: relative;">
+                <div style="position: relative; height: 100px;">
                     <!-- ANSWER A -->
                     <div id="answer-a-container" style="position: absolute; left: 0; top: 0; width: 100%; display: none; flex-flow: row nowrap; margin-top: 10px;">
                         <label style="margin-top: 10px; position: relative; user-select: none;">&nbsp;
@@ -98,7 +98,17 @@
                         <div id="answer-d" style="margin-left: 20px; font-size: 18px;"></div>
                     </div>
                 </div>
-                <input id="isian-answer" type="text" class="input1" style="display: none; position: absolute; left: 0; top: 0;">
+                <input id="isian-answer" type="text" class="input1" style="display: none; position: absolute; left: 0; top: 0; height: 50px;">
+                <div id="answer-result" style="display: none; color: #27ae60; font-family: 'PalanquinBold'; font-size: 18px; margin-left: 20px; margin-top: 30px;">Jawaban Anda benar</div>
+                <div id="reason-container" style="display: none; margin-left: 20px; margin-right: 20px; width: calc(100% - 70px); border-radius: 10px; border: 1px solid #c08175; background-color: rgba(254, 108, 93, 0.4); padding: 15px;">
+                    <div style="color: black; font-family: 'PalanquinBold', Arial; font-size: 18px;">Jawaban yang Benar:</div>
+                    <div id="real-answer" style="color: black; font-family: 'PalanquinRegular', Arial;">Ini adalah jawaban yang benar.</div>
+                    <div style="color: black; font-family: 'PalanquinBold', Arial; font-size: 18px;">Alasan:</div>
+                    <div id="reason" style="color: black; font-family: 'PalanquinRegular', Arial;">Ini adalah alasan.</div>
+                </div>
+                <div id="next-question-2-container" style="margin-top: 20px; width: calc(100% - 40px); display: none; justify-content: flex-end;">
+                    <button id="next-question-2" class="button1">Lanjut</button>
+                </div>
             </div>
             <!-- ANSWER RESULT -->
         </div>
