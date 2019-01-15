@@ -1,6 +1,6 @@
 <?php
 include 'mail.php';
 $email = $_GET["email"];
-$report = "Hello world 2";
+$report = $_GET["report"];
 sendMail("danaossoftware@gmail.com", "danaoscompany@gmail.com", "Keluhan Pengguna", $report);
 echo $report;

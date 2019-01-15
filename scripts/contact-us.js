@@ -137,12 +137,10 @@ function sendReport() {
     }
     $.ajax({
         type: 'GET',
-        url: PHP_PATH+'send-report.php',
-        data: {'email': email, 'report': report},
+        url: PHP_PATH+'send-report.php?email='+email+'&report='+report,
         dataType: 'text',
         cache: false,
         success: function(a) {
-            alert(a);
             alert("Laporan berhasil dikirim");
             window.location.href = "http://ilatih.com/quiz/home.html";
         },
