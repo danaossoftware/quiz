@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'mail.php';
 $email = $_POST["email"];
 $report = $_POST["report"];
-$c->query("INSERT INTO reports (id, email, report) VALUES ('" . uniqid() . "', '" . $email . "', '" . $report . "')");
+sendMail($email, "admin@ilatih.com", "Keluhan Pengguna", $report);
