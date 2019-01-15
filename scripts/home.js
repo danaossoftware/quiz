@@ -137,6 +137,7 @@ function initialize() {
                 var permissions = JSON.parse(a);
                 for (var i=0; i<permissions.length; i++) {
                     var permission = permissions[i];
+                    alert(permission.granted);
                     if (permission.granted == 1) {
                         $.ajax({
                             type: 'GET',
