@@ -136,10 +136,9 @@ function sendReport() {
         $("#error").css("display", "block");
         return;
     }
-    var params = 'email='+email+'&report='+report;
     $.ajax({
         type: 'GET',
-        url: PHP_PATH+'send-report.php?'+encodeURIComponent(params),
+        url: PHP_PATH+'send-report.php?email='+encodeURIComponent(email)+"&report="+encodeURIComponent(report),
         dataType: 'text',
         cache: false,
         success: function(a) {
