@@ -266,7 +266,8 @@ function toNextQuestion() {
             score = CORRECT_ANSWER_SCORE;
             answerTypes.push(1);
             $("#answer-result").html("Jawaban Anda benar");
-            $("#answer-result").css("color", "#27ae60")
+            $("#answer-result").css("color", "#27ae60");
+            $("#reason-container").css("display", "none");
         } else {
             score = WRONG_ANSWER_SCORE;
             answerTypes.push(0)
