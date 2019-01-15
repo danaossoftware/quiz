@@ -123,11 +123,11 @@ function openSocialMedia(type) {
 function sendReport() {
     $("#error").css("display", "none");
     var response = grecaptcha.getResponse();
-    if (response.length == 0) {
+    /*if (response.length == 0) {
         $("#error").html("Mohon lakukan verifikasi captcha sebelum melanjutkan");
         $("#error").css("display", "block");
         return;
-    }
+    }*/
     var email = $("#email").val();
     var report = $("#report").val();
     if (email == '' || report == '') {
