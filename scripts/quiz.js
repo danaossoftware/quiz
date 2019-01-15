@@ -272,7 +272,9 @@ function toNextQuestion() {
             answerTypes.push(1);
             $("#answer-result").html("Jawaban Anda benar");
             $("#answer-result").css("color", "#27ae60");
-            $("#reason-container").css("display", "none");
+            $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
+            $("#reason").html(question.reason);
+            $("#reason-container").css("display", "block");
         } else {
             score = WRONG_ANSWER_SCORE;
             answerTypes.push(0)
@@ -317,7 +319,9 @@ function toNextQuestion() {
             answerTypes.push(1);
             $("#answer-result").html("Jawaban Anda benar");
             $("#answer-result").css("color", "#27ae60");
-            $("#reason-container").css("display", "none");
+            $("#real-answer").html(answers);
+            $("#reason").html(question.reason);
+            $("#reason-container").css("display", "block");
         } else {
             score += CORRECT_ANSWER_SCORE;
             score = WRONG_ANSWER_SCORE;
