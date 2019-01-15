@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/scripts/check-permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/check-permission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rules.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/check-permission.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="180" selection-start-line="10" selection-start-column="180" selection-end-line="10" selection-end-column="180" />
             </state>
           </provider>
         </entry>
@@ -402,12 +401,12 @@
       <workItem from="1547507632211" duration="3673000" />
       <workItem from="1547532297905" duration="2227000" />
       <workItem from="1547534951408" duration="825000" />
-      <workItem from="1547543187365" duration="8222000" />
+      <workItem from="1547543187365" duration="8319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201617000" />
+    <option name="totallyTimeSpent" value="201714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -987,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/check-permission.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="170">
+          <caret line="10" column="180" selection-start-line="10" selection-start-column="180" selection-end-line="10" selection-end-column="180" />
         </state>
       </provider>
     </entry>
