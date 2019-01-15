@@ -319,7 +319,7 @@ function toNextQuestion() {
             answerTypes.push(0);
             $("#answer-result").html("Jawaban Anda salah");
             $("#answer-result").css("color", "#e74c3c");
-            $("#real-answer").html(question.correct_answer);
+            $("#real-answer").html(answers);
             $("#reason").html(question.reason);
             $("#reason-container").css("display", "block");
         }
