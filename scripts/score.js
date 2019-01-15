@@ -236,8 +236,12 @@ function updateScore(index) {
             updateScore(index);
         }, 100);
     } else {
-        if (percentage2 >= 75) {
-            $("#congratulations").html("CONGRATULATIONS!");
+        if (percentage2 > 25 && percentage2 <= 50) {
+            $("#congratulations").html("Perlu ditingkatkan lagi");
+        } else if (percentage2 > 50 && percentage2 <= 75) {
+            $("#congratulations").html("Hasil Anda memuaskan");
+        } else if (percentage2 > 75) {
+            $("#congratulations").html("Selamat, hasil Anda sangat memuaskan");
         } else {
             $("#congratulations").html("Jangan bersedih");
         }
