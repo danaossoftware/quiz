@@ -121,6 +121,8 @@ function openSocialMedia(type) {
 }
 
 function sendReport() {
+    alert("Hello");
+    return;
     $("#error").css("display", "none");
     var response = grecaptcha.getResponse();
     if (response.length == 0) {
