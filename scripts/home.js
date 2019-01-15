@@ -138,8 +138,6 @@ function initialize() {
                 for (var i=0; i<permissions.length; i++) {
                     var permission = permissions[i];
                     if (permission.granted == 1) {
-                        alert(permission.chapter_id);
-                        return;
                         $.ajax({
                             type: 'GET',
                             url: PHP_PATH+'get-chapter.php',
