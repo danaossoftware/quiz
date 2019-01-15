@@ -131,8 +131,6 @@ function initialize() {
         cache: false,
         async: true,
         success: function(a) {
-            alert(a);
-            return;
             if (a < 0) {
                 // Error
             } else {
