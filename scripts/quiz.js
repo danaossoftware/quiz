@@ -276,7 +276,6 @@ function toNextQuestion() {
             $("#reason").html(question.reason);
             $("#reason-container").css("display", "block");
         }
-        $("#answer-result-container").css("display", "flex");
         questionIds.push(question.id);
         scores.push(score);
         wrongAnswerPositions.push("");
@@ -335,6 +334,7 @@ function toNextQuestion() {
     });
     $("#prompt-yes").html("Ya");
     $("#prompt-yes").on("click", function() {
+        $("#answer-result-container").css("display", "flex");
         $("#prompt").css("display", "none");
         $("#next-question").css("display", "none");
         $("#next-question-2-container").css("display", "flex");
