@@ -11,11 +11,8 @@ if ($results && $results->num_rows > 0) {
         if ($results && $results->num_rows > 0) {
             while ($row = $results->fetch_assoc()) {
                 if ($row["granted"] == 1) {
-                    $permissions = [];
-                    while ($row = $results->fetch_assoc()) {
-                        array_push($permissions, $row);
-                    }
-                    echo json_encode($permissions);
+                    $results = $c->query("SELECT * FROM permissions WHERE user_id='" . $userId . "'");
+                    echo $results->fetch_assoc()["id"];
                     return;
                 }
             }
