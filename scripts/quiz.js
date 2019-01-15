@@ -274,7 +274,7 @@ function toNextQuestion() {
             $("#answer-result").css("color", "#27ae60");
             $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
             $("#reason").html(question.reason);
-            $("#reason-container").css("border", "darkgreen");
+            $("#reason-container").css("border", "1px solid darkgreen");
             $("#reason-container").css("background-color", "lightgreen");
             $("#reason-container").css("display", "block");
         } else {
