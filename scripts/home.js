@@ -145,8 +145,6 @@ function initialize() {
                             dataType: 'text',
                             cache: false,
                             success: function(a) {
-                                alert(a);
-                                return;
                                 var chapterName = JSON.parse(a).name;
                                 $.ajax({
                                     type: 'GET',
