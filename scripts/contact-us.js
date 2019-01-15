@@ -137,7 +137,7 @@ function sendReport() {
     }
     $.ajax({
         type: 'POST',
-        url: PHP_PATH+'add-report.php',
+        url: PHP_PATH+'send-report.php',
         data: {'email': email, 'report': report},
         dataType: 'text',
         cache: false,
