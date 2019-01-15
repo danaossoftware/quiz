@@ -2,8 +2,8 @@ const PHP_PATH = "http://ilatih.com/quiz/scripts/";
 const CORRECT_ANSWER_SCORE = 1;
 const WRONG_ANSWER_SCORE = 0;
 
-var courseId = 0;
-var chapterId = 0;
+var courseId;
+var chapterId;
 var currentQuestion = 0;
 var totalQuestions = 0;
 var scores = [];
@@ -410,7 +410,16 @@ function toNextQuestion() {
                                 },
                                 cache: false,
                                 success: function (a) {
-                                    window.location.href = "http://ilatih.com/quiz/score.html";
+                                    $.ajax({
+                                        type: 'GET',
+                                        url: PHP_PATH+'remove-permission.php',
+                                        data: {'chapter-id': chapterId, 'course-id': courseId},
+                                        dataType: 'text',
+                                        cache: false,
+                                        success: function(a) {
+                                            window.location.href = "http://ilatih.com/quiz/score.html";
+                                        }
+                                    });
                                 },
                                 error: function (a, b, c) {
                                     alert(b + ' ' + c);
