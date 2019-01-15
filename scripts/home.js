@@ -155,8 +155,8 @@ function initialize() {
                                     success: function(a) {
                                         var courseName = JSON.parse(a).name;
                                         var url = "http://ilatih.com/quiz/rules.html?course_id="+permission.course_id+"&chapter_id="+permission.chapter_id;
-                                        $("#permission-notifications").append("<div style=\"width: calc(100% - 60px); height: 40px; border-radius: 10px; border: 1px solid darkgreen; background-color: lightgreen; padding: 10px; color: darkgreen; font-family: 'PalanquinBold';\">\n" +
-                                            "Dosen telah mengizinkan Anda mengakses tes online mata kuliah "+courseName+" bab "+chapterName+". Klik di <a href='"+url+"'>sini</a> untuk mulai ujian."+
+                                        $("#permission-notifications").append("<div style=\"margin-left: 30px; margin-right: 30px; margin-top: 20px; width: calc(100% - 60px); border-radius: 10px; border: 1px solid darkgreen; background-color: lightgreen; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; color: darkgreen; font-family: 'PalanquinBold';\">\n" +
+                                            "Dosen telah mengizinkan Anda mengakses tes online mata kuliah "+courseName+" bab "+chapterName+". Klik di <a style='text-decoration: none;' href='"+url+"'>sini</a> untuk mulai ujian."+
                                             "</div>");
                                     }
                                 });

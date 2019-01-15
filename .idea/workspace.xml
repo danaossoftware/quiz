@@ -18,10 +18,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="146" column="50" selection-start-line="146" selection-start-column="50" selection-end-line="146" selection-end-column="50" />
+            <state relative-caret-position="203">
+              <caret line="157" column="175" selection-start-line="157" selection-start-column="175" selection-end-line="157" selection-end-column="175" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -29,6 +29,15 @@
                 <element signature="n#style#0;n#div#0;n#td#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/get-course.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -62,8 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>apakah anda</find>
-      <find>remove</find>
       <find>answer-panel</find>
       <find>tonextquestion</find>
       <find>tonextq</find>
@@ -92,6 +99,8 @@
       <find>params</find>
       <find>rules.html</find>
       <find>echo</find>
+      <find>&lt;a</find>
+      <find>padding</find>
     </findStrings>
     <replaceStrings>
       <replace>-50px;</replace>
@@ -310,12 +319,12 @@
       <workItem from="1547507632211" duration="3673000" />
       <workItem from="1547532297905" duration="2227000" />
       <workItem from="1547534951408" duration="825000" />
-      <workItem from="1547543187365" duration="10985000" />
+      <workItem from="1547543187365" duration="11095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204380000" />
+    <option name="totallyTimeSpent" value="204490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -805,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/get-course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rules-mobile.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -863,12 +865,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/get-course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="146" column="50" selection-start-line="146" selection-start-column="50" selection-end-line="146" selection-end-column="50" />
+        <state relative-caret-position="203">
+          <caret line="157" column="175" selection-start-line="157" selection-start-column="175" selection-end-line="157" selection-end-column="175" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
