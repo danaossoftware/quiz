@@ -274,6 +274,8 @@ function toNextQuestion() {
             $("#answer-result").css("color", "#27ae60");
             $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
             $("#reason").html(question.reason);
+            $("#reason-container").css("border", "darkgreen");
+            $("#reason-container").css("background-color", "lightgreen");
             $("#reason-container").css("display", "block");
         } else {
             score = WRONG_ANSWER_SCORE;
@@ -282,6 +284,8 @@ function toNextQuestion() {
             $("#answer-result").css("color", "#e74c3c");
             $("#real-answer").html(question.answers.split("@")[question.correct_answer]);
             $("#reason").html(question.reason);
+            $("#reason-container").css("border", "1px solid #c08175");
+            $("#reason-container").css("background-color", "rgba(254, 108, 93, 0.4)");
             $("#reason-container").css("display", "block");
         }
         questionIds.push(question.id);
@@ -321,6 +325,8 @@ function toNextQuestion() {
             $("#answer-result").css("color", "#27ae60");
             $("#real-answer").html(answers);
             $("#reason").html(question.reason);
+            $("#reason-container").css("border", "darkgreen");
+            $("#reason-container").css("background-color", "lightgreen");
             $("#reason-container").css("display", "block");
         } else {
             score += CORRECT_ANSWER_SCORE;
@@ -330,6 +336,8 @@ function toNextQuestion() {
             $("#answer-result").css("color", "#e74c3c");
             $("#real-answer").html(answers);
             $("#reason").html(question.reason);
+            $("#reason-container").css("border", "1px solid #c08175");
+            $("#reason-container").css("background-color", "rgba(254, 108, 93, 0.4)");
             $("#reason-container").css("display", "block");
         }
         questionIds.push(questions[currentQuestion].id);
