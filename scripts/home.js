@@ -8,10 +8,10 @@ $(document).ready(function() {
         window.location.href = "http://ilatih.com/quiz/browsernotsupported.html";
         return;
     }*/
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    /*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         window.location.href = "home-mobile.html";
         return;
-    }
+    }*/
     $.ajax({
         type: 'GET',
         url: "http://ilatih.com/quiz/scripts/check-session.php",
