@@ -63,6 +63,7 @@ function initialize() {
             dataType: 'text',
             cache: false,
             success: function(a) {
+                alert(a);
                 if (a < 0) {
                     // Error
                 } else {
@@ -74,6 +75,9 @@ function initialize() {
                         window.location.href = "http://ilatih.com/quiz/email-not-confirmed.html";
                     }
                 }
+            },
+            error: function(a, b, c) {
+                alert(b+' '+c);
             }
         });
     } else {
