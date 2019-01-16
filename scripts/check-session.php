@@ -1,4 +1,6 @@
 <?php
+echo 0;
+return;
 session_start();
 if (isset($_SESSION["dnquiz_user_id"])) {
     echo 0;
