@@ -47,9 +47,6 @@ function initialize() {
             }
         }
     });
-    $("#profile").on("click", function() {
-        window.location.href = "http://ilatih.com/quiz/profile.html";
-    });
     loadNews();
     loadCourses();
     var params = location.search;
