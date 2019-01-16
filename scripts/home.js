@@ -55,7 +55,7 @@ function initialize() {
     var params = location.search;
     if (params != '') {
         params = params.substr(1, params.length);
-        page = params.split("&")[0].split("=")[1];
+        page = parseInt(params.split("&")[0].split("=")[1]);
     }
     if (page == 1) {
         $.ajax({
