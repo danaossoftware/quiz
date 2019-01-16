@@ -40,27 +40,33 @@ $(document).ready(function() {
         });
     });
     $("#start-exam").on("click", function() {
-        $.ajax({
-            type: 'GET',
-            url: PHP_PATH+'check-permission.php',
-            data: {'chapter-id': chapterId, 'course-id': courseId},
-            dataType: 'text',
-            cache: false,
-            success: function(a) {
-                if (a < 0) {
-                    // Not granted
-                    $('#prompt-text').html("Anda belum diizinkan dosen untuk melakukan tes ini. Silahkan hubungi dosen terkait.");
-                    $("#prompt").css("display", "flex");
-                } else {
-                    var permission = JSON.parse(a);
-                    if (permission.granted == 1) {
-                        window.location.href = "quiz.html?course_id="+courseId+"&chapter_id="+chapterId;
-                    } else {
-                        $('#prompt-text').html("Anda belum diizinkan dosen untuk melakukan tes ini. Silahkan hubungi dosen terkait.");
+        $("#access-code").val("");
+        $("#enter-code-container").css("display", "flex");
+        $("#enter-code-cancel").on("click", function() {
+            $("#enter-code-container").css("display", "none");
+        });
+        $("#enter-code-ok").on("click", function() {
+            var accessCode = $("#access-code").val();
+            if (accessCode == '') {
+                return;
+            }
+            $.ajax({
+                type: 'GET',
+                url: PHP_PATH+'check-access-code.php',
+                data: {'chapter-id': chapterId, 'course-id': courseId, 'access-code': accessCode},
+                dataType: 'text',
+                cache: false,
+                success: function(a) {
+                    $("#enter-code-container").css("display", "none");
+                    if (a < 0) {
+                        // Not granted
+                        $('#prompt-text').html("Kode yang Anda masukkan salah. Silahkan hubungi pembimbing yang bersangkutan untuk menanyakan kodenya.");
                         $("#prompt").css("display", "flex");
+                    } else {
+                        window.location.href = "quiz.html?course_id="+courseId+"&chapter_id="+chapterId;
                     }
                 }
-            }
+            });
         });
     });
     $.ajax({
