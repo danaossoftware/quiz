@@ -50,7 +50,6 @@ function initialize() {
     loadNews();
     loadCourses();
     var params = location.search;
-    alert(params);
     if (params != '') {
         params = params.substr(1, params.length);
         page = parseInt(params.split("&")[0].split("=")[1]);
