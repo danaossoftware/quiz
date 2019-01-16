@@ -14,13 +14,15 @@ $(document).ready(function() {
     }
     $.ajax({
         type: 'GET',
-        url: PHP_PATH+'check-session.php',
+        url: "http://ilatih.com/quiz/scripts/check-session.php",
         dataType: 'text',
         cache: false,
         success: function(a) {
-            if (a == "0") {
+            if (a == 0) {
+                // Logged in
                 initialize();
-            } else {
+            } else if (a == -1) {
+                // Not logged in
                 window.location.href = "http://ilatih.com/quiz";
             }
         },
