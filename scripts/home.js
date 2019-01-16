@@ -57,6 +57,7 @@ function initialize() {
         params = params.substr(1, params.length);
         page = parseInt(params.split("&")[0].split("=")[1]);
     }
+    alert("Page: "+page);
     if (page == 1) {
         $.ajax({
             type: 'GET',
@@ -281,12 +282,12 @@ function setCourseLinkClickListener() {
 }
 
 function showHomePage() {
-    $("#home-content").css("display", "flex");
+    $("#home-content-container").css("display", "flex");
     $("#latihan-content").css("display", "none");
 }
 
 function showLatihanPage() {
-    $("#home-content").css("display", "none");
+    $("#home-content-container").css("display", "none");
     $("#latihan-content").css("display", "flex");
 }
 
