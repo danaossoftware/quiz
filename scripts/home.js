@@ -56,7 +56,6 @@ function initialize() {
     } else {
         page = 0;
     }
-    alert(page);
     if (page == 1) {
         $.ajax({
             type: 'GET',
