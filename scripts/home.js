@@ -54,7 +54,6 @@ function initialize() {
         params = params.substr(1, params.length);
         page = parseInt(params.split("&")[0].split("=")[1]);
     }
-    alert("Page: "+page);
     if (page == 1) {
         $.ajax({
             type: 'GET',
@@ -306,4 +305,26 @@ function openAboutPage() {
 
 function openPrivacyPolicyPage() {
     window.location.href = "http://ilatih.com/quiz/privacy-policy.html";
+}
+
+function selectLatihanPage() {
+    $.ajax({
+        type: 'GET',
+        url: PHP_PATH+'get-user.php',
+        dataType: 'text',
+        cache: false,
+        success: function(a) {
+            if (a < 0) {
+                // Error
+            } else {
+                var user = JSON.parse(a);
+                var confirmed = user.confirmed;
+                if (confirmed) {
+                    showLatihanPage();
+                } else {
+                    window.location.href = "http://ilatih.com/quiz/email-not-confirmed.html";
+                }
+            }
+        }
+    });
 }
