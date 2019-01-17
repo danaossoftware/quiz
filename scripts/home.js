@@ -88,8 +88,6 @@ function initialize() {
     } else {
         showHomePage();
     }
-    alert("Hello, world 3");
-    return;
     $.ajax({
         type: 'GET',
         url: PHP_PATH+'check-session.php',
@@ -105,6 +103,8 @@ function initialize() {
             }
         }
     });
+    alert("Hello, world 4");
+    return;
     $("#home").on("click", function() {
         window.location.href = "http://ilatih.com/quiz/home.html";
     });
