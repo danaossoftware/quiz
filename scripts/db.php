@@ -1,5 +1,4 @@
 <?php
-ini_set('session.use_cookies',false);
 //TODO rename this properties
 $settings = simplexml_load_file("../../backend/systemdata/settings.xml");
 $mysql = $settings->mysql;
