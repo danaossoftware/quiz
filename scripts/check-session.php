@@ -1,9 +1,10 @@
 <?php
 session_start();
+echo $_SESSION["dnquiz_user_id"];
 if (isset($_SESSION["dnquiz_user_id"]) && $_SESSION["dnquiz_user_id"] != "") {
     session_write_close();
-    echo 0;
+    //echo 0;
 } else {
     session_write_close();
-    echo -1;
+    //echo -1;
 }
