@@ -126,6 +126,7 @@ function initialize() {
             dataType: 'text',
             cache: false,
             success: function(a) {
+                alert(a);
                 window.location.href = "http://ilatih.com/quiz";
             },
             error: function(a, b, c) {

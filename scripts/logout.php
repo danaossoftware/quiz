@@ -1,5 +1,10 @@
 <?php
-session_start();
+try {
+    session_start();
+} catch (Exception $e) {
+    echo $e->getMessage();
+    return;
+}
 unset($_SESSION["dnquiz_user_id"]);
 unset($_SESSION["dnquiz_email"]);
 unset($_SESSION["dnquiz_password"]);
