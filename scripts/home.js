@@ -52,8 +52,6 @@ function initialize() {
             }
         }
     });
-    alert("Hello, world 2");
-    return;
     loadNews();
     loadCourses();
     var params = location.search;
@@ -90,6 +88,8 @@ function initialize() {
     } else {
         showHomePage();
     }
+    alert("Hello, world 3");
+    return;
     $.ajax({
         type: 'GET',
         url: PHP_PATH+'check-session.php',
