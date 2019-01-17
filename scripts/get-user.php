@@ -1,9 +1,8 @@
 <?php
-include 'db.php';
 session_start();
 echo "Fuck you";
-session_abort();
 return;
+session_abort();
 $userId = $_SESSION["dnquiz_user_id"];
 echo $userId;
 return;
