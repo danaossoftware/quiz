@@ -57,7 +57,9 @@ function login() {
         data: {'email': email, 'password': password, 'remember-me': rememberMe},
         cache: false,
         success: function(a) {
+            a = a.trim();
             var response = parseInt(a);
+            alert(response);
             if (response == 0) {
                 window.location.href = "home.html";
             } else {
