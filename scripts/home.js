@@ -3,8 +3,6 @@ var page = 0;
 var newsJSON;
 
 $(document).ready(function() {
-    alert("Hello, world");
-    return;
     /*var isFirefox = typeof InstallTrigger !== 'undefined';
     if (!isFirefox) {
         window.location.href = "http://ilatih.com/quiz/browsernotsupported.html";
@@ -54,6 +52,8 @@ function initialize() {
             }
         }
     });
+    alert("Hello, world");
+    return;
     loadNews();
     loadCourses();
     var params = location.search;

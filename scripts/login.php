@@ -18,5 +18,4 @@ if ($results && $results->num_rows > 0) {
     session_abort();
 } else {
     echo -1;
-    session_abort();
 }
