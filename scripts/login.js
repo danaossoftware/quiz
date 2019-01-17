@@ -58,6 +58,7 @@ function login() {
         cache: false,
         success: function(a) {
             a = a.trim();
+            alert(a);
             var response = parseInt(a);
             alert(response);
             if (response == 0) {
