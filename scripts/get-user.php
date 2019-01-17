@@ -1,7 +1,6 @@
 <?php
 session_start();
-$userId = $_SESSION["dnquiz_user_id"];
-echo $userId;
+echo "Jancok uripku gak tau tenang. Asu. Lapo Allah gak tau ngekek i aku waktu sedikit untuk tenang? Pindah nak endi-endi ae yo gak tau tenang uripku.";
 session_write_close();
 return;
 $results = $c->query("SELECT * FROM users WHERE id='" . $userId . "'");
