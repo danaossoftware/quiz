@@ -1,4 +1,5 @@
 <?php
+session_id("quiz");
 session_start();
 unset($_SESSION["userid"]);
 unset($_SESSION["email"]);

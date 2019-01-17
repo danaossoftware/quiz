@@ -1,4 +1,5 @@
 <?php
+session_id("quiz");
 session_start();
 $userId = $_SESSION["userid"];
 $email = $_SESSION["email"];

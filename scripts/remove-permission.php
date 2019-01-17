@@ -1,5 +1,6 @@
 <?php
 include 'db.php';
+session_id("quiz");
 session_start();
 $userId = $_SESSION["userid"];
 $courseId = $_GET["course-id"];

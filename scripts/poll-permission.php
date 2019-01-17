@@ -1,5 +1,6 @@
 <?php
 include 'db.php';
+session_id("quiz");
 session_start();
 $userId = $_SESSION["userid"];
 $results = $c->query("SELECT * FROM permissions WHERE user_id='" . $userId . "'");

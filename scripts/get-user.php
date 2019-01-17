@@ -1,4 +1,5 @@
 <?php
+session_id("quiz");
 session_start();
 $userId = $_SESSION["userid"];
 $results = $c->query("SELECT * FROM users WHERE id='" . $userId . "'");
