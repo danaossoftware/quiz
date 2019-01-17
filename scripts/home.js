@@ -12,8 +12,7 @@ $(document).ready(function() {
         window.location.href = "home-mobile.html";
         return;
     }*/
-    alert("Checking session...");
-    $.ajax({
+    /*$.ajax({
         type: 'GET',
         url: "http://ilatih.com/quiz/scripts/check-session.php",
         dataType: 'text',
@@ -32,7 +31,8 @@ $(document).ready(function() {
         error: function(a, b, c) {
 
         }
-    });
+    });*/
+    initialize();
 });
 
 function initialize() {
@@ -61,7 +61,6 @@ function initialize() {
     } else {
         page = 0;
     }
-    alert("Page: "+page);
     if (page == 1) {
         $.ajax({
             type: 'GET',
