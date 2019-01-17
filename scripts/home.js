@@ -88,6 +88,8 @@ function initialize() {
     } else {
         showHomePage();
     }
+    alert("Hello, world");
+    return;
     $.ajax({
         type: 'GET',
         url: PHP_PATH+'check-session.php',
