@@ -1,6 +1,7 @@
 <?php
 session_id("quiz");
 session_start();
+include 'db.php';
 $userId = $_SESSION["userid"];
 $results = $c->query("SELECT * FROM users WHERE id='" . $userId . "'");
 if ($results && $results->num_rows > 0) {
