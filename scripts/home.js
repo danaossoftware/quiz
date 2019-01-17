@@ -317,7 +317,8 @@ function selectLatihanPage() {
                 // Error
             } else {
                 var user = JSON.parse(a);
-                var confirmed = user.confirmed;
+                var confirmed = user["confirmed"];
+                alert(confirmed);
                 if (confirmed) {
                     showLatihanPage();
                 } else {
