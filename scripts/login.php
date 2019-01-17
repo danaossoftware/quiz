@@ -5,7 +5,7 @@ $rememberMe = $_GET["remember-me"];
 include 'db.php';
 $results = $c->query("SELECT * FROM users WHERE email='" . $email . "' AND password='" . $password . "'");
 if ($results && $results->num_rows > 0) {
-    //session_start();
+    session_start();
     echo $results->fetch_assoc()["id"];
     $_SESSION["dnquiz_user_id"] = $results->fetch_assoc()["id"];
     $_SESSION["dnquiz_email"] = $email;
