@@ -1,8 +1,5 @@
 <?php
 session_start();
-echo $_SESSION["dnquiz_user_id"];
-session_write_close();
-return;
 if (isset($_SESSION["dnquiz_user_id"]) && $_SESSION["dnquiz_user_id"] != "") {
     session_write_close();
     echo 0;
