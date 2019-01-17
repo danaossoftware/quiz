@@ -1,8 +1,6 @@
 <?php
 session_start();
-echo "Jancok uripku gak tau tenang. Asu. Lapo Allah gak tau ngekek i aku waktu sedikit untuk tenang? Pindah nak endi-endi ae yo gak tau tenang uripku.";
-session_write_close();
-return;
+$userId = $_SESSION["dnquiz_user_id"];
 $results = $c->query("SELECT * FROM users WHERE id='" . $userId . "'");
 if ($results && $results->num_rows > 0) {
     $row = $results->fetch_assoc();
