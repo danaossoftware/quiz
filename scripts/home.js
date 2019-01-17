@@ -88,14 +88,14 @@ function initialize() {
     } else {
         showHomePage();
     }
-    alert("Hello, world 3");
-    return;
     $.ajax({
         type: 'GET',
         url: PHP_PATH+'check-session.php',
         dataType: 'text',
         cache: false,
         success: function(a) {
+            alert("Hello, world 4");
+            return;
             alert(a);
             return;
             if (a == 0) {
