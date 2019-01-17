@@ -318,8 +318,7 @@ function selectLatihanPage() {
             } else {
                 var user = JSON.parse(a);
                 var confirmed = user["confirmed"];
-                alert(confirmed);
-                if (confirmed) {
+                if (confirmed == 1) {
                     showLatihanPage();
                 } else {
                     window.location.href = "http://ilatih.com/quiz/email-not-confirmed.html";
