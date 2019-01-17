@@ -1,10 +1,8 @@
 <?php
 session_start();
-echo "Fuck you";
-session_write_close();
-return;
 $userId = $_SESSION["dnquiz_user_id"];
 echo $userId;
+session_write_close();
 return;
 $results = $c->query("SELECT * FROM users WHERE id='" . $userId . "'");
 if ($results && $results->num_rows > 0) {
