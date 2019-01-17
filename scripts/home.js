@@ -94,8 +94,6 @@ function initialize() {
         dataType: 'text',
         cache: false,
         success: function(a) {
-            alert("Hello, world 4");
-            return;
             alert(a);
             return;
             if (a == 0) {
