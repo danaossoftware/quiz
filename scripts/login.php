@@ -17,7 +17,6 @@ if ($results && $results->num_rows > 0) {
     }*/
     //echo $_SESSION["userid"];
     echo 0;
-    session_write_close();
 } else {
     echo -1;
 }
