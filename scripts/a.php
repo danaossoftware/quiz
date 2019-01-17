@@ -1,5 +1,12 @@
 <?php
-include 'db.php';
-for ($i=0; $i<100; $i++) {
-    $c->query("INSERT INTO photos (id, user_id, photo_url) VALUES ('" . uniqid() . "', '5c2db02610213', 'http://ilatih.com/backend/userdata/imgs/orsrc26212.jpg')");
-}
+session_id("quiz");
+session_start();
+/*$_SESSION["userid"] = "";
+$_SESSION["email"] = "";
+$_SESSION["password"] = "";
+unset($_SESSION["userid"]);
+unset($_SESSION["email"]);
+unset($_SESSION["password"]);
+session_write_close();
+header("Location: http://ilatih.com/quiz");*/
+echo "Hello, world 4";

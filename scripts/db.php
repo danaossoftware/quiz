@@ -6,5 +6,5 @@ $mysql = $settings->mysql;
 $user = $mysql->dbuser;
 $pass = $mysql->dbpass;
 $dbname = $mysql->dbname;
-$c = mysqli_connect("localhost", $user, $pass);
+$c = mysqli_connect("ilatih.com", $user, $pass);
 $c->select_db($dbname);

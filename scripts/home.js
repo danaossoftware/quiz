@@ -118,22 +118,9 @@ function initialize() {
         window.location.href = "http://ilatih.com/quiz/contact-us.html";
     });
     $("#log-out").on("click", function() {
-        alert("Logging out...");
-        $.ajax({
-            type: 'GET',
-            url: PHP_PATH+'logout.php',
-            dataType: 'text',
-            cache: false,
-            success: function(a) {
-                alert(a);
-                //window.location.href = "http://ilatih.com/quiz";
-            },
-            error: function(a, b, c) {
-                alert(a+' '+c);
-            }
-        });
+        window.location.href = "scripts/logout.php";
     });
-    $.ajax({
+    /*$.ajax({
         type: 'GET',
         url: PHP_PATH+'poll-permission.php',
         dataType: 'text',
@@ -175,7 +162,7 @@ function initialize() {
                 }
             }
         }
-    });
+    });*/
 }
 
 function loadNews() {
