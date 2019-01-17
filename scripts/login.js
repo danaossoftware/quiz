@@ -57,7 +57,8 @@ function login() {
         data: {'email': email, 'password': password, 'remember-me': rememberMe},
         cache: false,
         success: function(a) {
-            if (a == "0") {
+            var response = parseInt(a);
+            if (response == 0) {
                 window.location.href = "home.html";
             } else {
                 $("#error").html("Email atau kata sandi salah");
