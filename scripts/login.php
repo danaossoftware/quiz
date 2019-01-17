@@ -15,6 +15,8 @@ if ($results && $results->num_rows > 0) {
         setcookie(session_name(), $_COOKIE[session_name()], time() + $expiryDate*24*60*60, $params["path"], $params["domain"], $params["secure"], $params["httponly"]);
     }
     echo 0;
+    session_abort();
 } else {
     echo -1;
+    session_abort();
 }

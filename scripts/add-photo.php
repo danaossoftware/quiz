@@ -8,5 +8,5 @@ $f = fopen("../../backend/userdata/imgs/" . $imgFileName, "w");
 fwrite($f, $imgData);
 fflush($f);
 fclose($f);
-$imgURL = "http://localhost/backend/userdata/imgs/" . $imgFileName;
+$imgURL = "http://ilatih.com/backend/userdata/imgs/" . $imgFileName;
 $c->query("INSERT INTO photos (id, user_id, photo_url) VALUES ('" . uniqid() . "', '" . $userId . "', '" . $imgURL . "')");
