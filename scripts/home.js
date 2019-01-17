@@ -52,7 +52,7 @@ function initialize() {
             }
         }
     });
-    alert("Hello, world");
+    alert("Hello, world 2");
     return;
     loadNews();
     loadCourses();
