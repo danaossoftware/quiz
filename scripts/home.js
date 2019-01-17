@@ -94,8 +94,6 @@ function initialize() {
         dataType: 'text',
         cache: false,
         success: function(a) {
-            alert(a);
-            return;
             if (a == 0) {
                 // Logged in
                 $("body").css("display", "block");
