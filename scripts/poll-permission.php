@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 session_start();
-$userId = $_SESSION["dnquiz_user_id"];
+$userId = $_SESSION["userid"];
 $results = $c->query("SELECT * FROM permissions WHERE user_id='" . $userId . "'");
 if ($results && $results->num_rows > 0) {
     $granted = $results->fetch_assoc()["granted"];

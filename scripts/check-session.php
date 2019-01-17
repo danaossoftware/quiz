@@ -1,7 +1,7 @@
 <?php
+session_id("quiz");
 session_start();
-//echo $_SESSION["dnquiz_user_id"];
-if (isset($_SESSION["dnquiz_user_id"]) && $_SESSION["dnquiz_user_id"] != "") {
+if (isset($_SESSION["userid"]) && $_SESSION["userid"] != "") {
     session_write_close();
     echo 0;
 } else {

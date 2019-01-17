@@ -1,9 +1,9 @@
 <?php
 session_start();
-unset($_SESSION["dnquiz_user_id"]);
-unset($_SESSION["dnquiz_email"]);
-unset($_SESSION["dnquiz_password"]);
-$_SESSION["dnquiz_user_id"] = "";
-$_SESSION["dnquiz_email"] = "";
-$_SESSION["dnquiz_password"] = "";
+unset($_SESSION["userid"]);
+unset($_SESSION["email"]);
+unset($_SESSION["password"]);
+$_SESSION["userid"] = "";
+$_SESSION["email"] = "";
+$_SESSION["password"] = "";
 //session_destroy();

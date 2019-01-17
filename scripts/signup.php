@@ -20,9 +20,9 @@ if ($c->query("INSERT INTO users (id, email, password, idnumber) VALUES ('" . $u
     $url = "http://ilatih.com/quiz/scripts/confirm-email.html?id=" . $userId;
     sendMail("admin@ilatih.com", $email, "Konfirmasi email Anda untuk akun iLatih Anda", "<br/><img src='http://ilatih.com/quiz/img/logo.png' width='80px' height='80px'><br/><br/><br/>Selamat datang!<br/>Konfirmasi email Anda dengan meng-klik URL berikut untuk menyelesaikan registrasi akun iLatih Anda.<br/><a href='" . $url . "'>" . $url . "</a><br/>Jika Anda tidak mendaftar iLatih sebelumnya, abaikan email ini.<br/>Tim iLatih");
     session_start();
-    $_SESSION["dnquiz_user_id"] = $userId;
-    $_SESSION["dnquiz_email"] = $email;
-    $_SESSION["dnquiz_password"] = $password;
+    $_SESSION["userid"] = $userId;
+    $_SESSION["email"] = $email;
+    $_SESSION["password"] = $password;
     if ($rememberMe) {
         $params = session_get_cookie_params();
         $expiryDate = 14; //Expiry date, in days
