@@ -1,12 +1,6 @@
 <?php
 session_id("quiz");
 session_start();
-unset($_SESSION["userid"]);
-unset($_SESSION["email"]);
-unset($_SESSION["password"]);
-$_SESSION["userid"] = "";
-$_SESSION["email"] = "";
-$_SESSION["password"] = "";
-session_destroy();
+session_write_close();
 echo "Hello";
 return;
