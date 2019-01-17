@@ -61,8 +61,6 @@ function initialize() {
     } else {
         page = 0;
     }
-    alert("Hello, world 2");
-    return;
     if (page == 1) {
         $.ajax({
             type: 'GET',
@@ -90,6 +88,8 @@ function initialize() {
     } else {
         showHomePage();
     }
+    alert("Hello, world 3");
+    return;
     $.ajax({
         type: 'GET',
         url: PHP_PATH+'check-session.php',
