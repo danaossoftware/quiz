@@ -1,1 +1,1 @@
-const PHP_PATH = "http://ilatih.com/quiz/scripts/";
+const PHP_PATH = "http://localhost/quiz/scripts/";

@@ -2,7 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browsernotsupported.html" beforeDir="false" afterPath="$PROJECT_DIR$/browsernotsupported.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapters-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapters-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapters.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirm-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirm-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/edit-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-not-confirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/email-not-confirmed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password-changed.html" beforeDir="false" afterPath="$PROJECT_DIR$/password-changed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-email-sent.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-email-sent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/a.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/add-photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/add-photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/chapters-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/chapters-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/chapters.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/chapters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/confirm-email.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/confirm-email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/contact-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/contact-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/courses-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/courses-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/edit-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/edit-profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/email-not-confirmed.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/email-not-confirmed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/forgot-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/forgot-password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/get-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/get-user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/help.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/password-changed.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/password-changed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/privacy-policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/privacy-policy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/reset-email-sent.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reset-email-sent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/reset-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reset-password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rules-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rules-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/score-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/score-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/send-reset-email.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-reset-email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/send-verification-email.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-verification-email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/send-verification-email.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-verification-email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tos.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send-verification-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/send-verification-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tos.html" beforeDir="false" afterPath="$PROJECT_DIR$/tos.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="334" column="47" selection-start-line="334" selection-start-column="47" selection-end-line="334" selection-end-column="47" />
+            <state relative-caret-position="101">
+              <caret line="322" column="12" lean-forward="true" selection-start-line="322" selection-start-column="12" selection-end-line="322" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
@@ -30,6 +91,15 @@
                 <element signature="n#style#0;n#div#0;n#td#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -64,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/check-session.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -78,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/get-user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -98,8 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>percentage2</find>
-      <find>congratulations</find>
       <find>jawaban anda benar</find>
       <find>reason-container</find>
       <find>Jawaban Anda salah</find>
@@ -128,6 +196,8 @@
       <find>showlat</find>
       <find>dnquiz_user_id</find>
       <find>uji sek</find>
+      <find>ilatih.com</find>
+      <find>il</find>
     </findStrings>
     <replaceStrings>
       <replace>-50px;</replace>
@@ -150,7 +220,6 @@
       <replace>#3498db</replace>
       <replace>admin@ilatih.com</replace>
       <replace>52, 152, 219</replace>
-      <replace>localhost</replace>
       <replace>reset-email-sent</replace>
       <replace>Kembali ke Halaman Utama</replace>
       <replace>reset-password</replace>
@@ -160,6 +229,7 @@
       <replace>http://ilatih.com/ujicoba</replace>
       <replace>quiz</replace>
       <replace />
+      <replace>localhost</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Dana\Documents\WebFiles\quiz\css</dir>
@@ -173,7 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/send-reset-email.php" />
         <option value="$PROJECT_DIR$/scripts/reset-email-sent.js" />
         <option value="$PROJECT_DIR$/scripts/forgot-password.js" />
         <option value="$PROJECT_DIR$/reset-email-sent.html" />
@@ -224,6 +293,7 @@
         <option value="$PROJECT_DIR$/scripts/logout.php" />
         <option value="$PROJECT_DIR$/scripts/check-session.php" />
         <option value="$PROJECT_DIR$/scripts/home.js" />
+        <option value="$PROJECT_DIR$/scripts/get-user.php" />
       </list>
     </option>
   </component>
@@ -351,12 +421,12 @@
       <workItem from="1547618054082" duration="4000" />
       <workItem from="1547630845778" duration="3748000" />
       <workItem from="1547642981334" duration="1375000" />
-      <workItem from="1547707563442" duration="283000" />
+      <workItem from="1547707563442" duration="641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214773000" />
+    <option name="totallyTimeSpent" value="215131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -810,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/signup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -845,17 +908,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/get-user.php">
+    <entry file="file://$PROJECT_DIR$/scripts/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="322" column="12" lean-forward="true" selection-start-line="322" selection-start-column="12" selection-end-line="322" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/check-session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -883,20 +963,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/home.js">
+    <entry file="file://$PROJECT_DIR$/scripts/get-user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="334" column="47" selection-start-line="334" selection-start-column="47" selection-end-line="334" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>

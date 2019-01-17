@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $("#login").on("click", function() {
-        window.location.href = "http://ilatih.com/quiz/login.html";
+        window.location.href = "http://localhost/quiz/login.html";
     });
     $("#signup").on("click", function() {
-        window.location.href = "http://ilatih.com/quiz/signup.html";
+        window.location.href = "http://localhost/quiz/signup.html";
     });
 });
 
@@ -19,7 +19,7 @@ function sendResetEmail() {
         dataType: 'text',
         cache: false,
         success: function(a) {
-            window.location.href = "http://ilatih.com/quiz/reset-email-sent.html";
+            window.location.href = "http://localhost/quiz/reset-email-sent.html";
         },
         error: function(a, b, c) {
 

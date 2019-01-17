@@ -1,7 +1,7 @@
 $(document).ready(function() {
     /*var isFirefox = typeof InstallTrigger !== 'undefined';
     if (!isFirefox) {
-        window.location.href = "http://ilatih.com/quiz/browsernotsupported.html";
+        window.location.href = "http://localhost/quiz/browsernotsupported.html";
         return;
     }*/
     /*$.ajax({
@@ -13,7 +13,7 @@ $(document).ready(function() {
             if (a == "0") {
                 initialize();
             } else {
-                window.location.href = "http://ilatih.com/quiz";
+                window.location.href = "http://localhost/quiz";
             }
         },
         error: function(a, b, c) {
@@ -25,19 +25,19 @@ $(document).ready(function() {
 function initialize() {
     loadSettings();
     $("#home").on("click", function() {
-        window.location.href = "http://ilatih.com/quiz/home.html";
+        window.location.href = "http://localhost/quiz/home.html";
     });
     $("#latihan").on("click", function() {
-        window.location.href = "http://ilatih.com/quiz/home.html?page=1";
+        window.location.href = "http://localhost/quiz/home.html?page=1";
     });
     $("#profile").on("click", function() {
-        window.location.href = "http://ilatih.com/quiz/profile.html";
+        window.location.href = "http://localhost/quiz/profile.html";
     });
     $("#help").on("click", function() {
-        window.location.href = "http://ilatih.com/quiz/help.html";
+        window.location.href = "http://localhost/quiz/help.html";
     });
     $("#contact-us").on("click", function() {
-        window.location.href = "http://ilatih.com/quiz/contact-us.html";
+        window.location.href = "http://localhost/quiz/contact-us.html";
     });
     $("#log-out").on("click", function() {
         $.ajax({
@@ -46,7 +46,7 @@ function initialize() {
             dataType: 'text',
             cache: false,
             success: function(a) {
-                window.location.href = "http://ilatih.com/quiz";
+                window.location.href = "http://localhost/quiz";
             },
             error: function(a, b, c) {
                 alert(a+' '+c);
@@ -142,7 +142,7 @@ function sendReport() {
         cache: false,
         success: function(a) {
             alert("Laporan berhasil dikirim");
-            window.location.href = "http://ilatih.com/quiz/home.html";
+            window.location.href = "http://localhost/quiz/home.html";
         },
         error: function(a, b, c) {
 
@@ -151,13 +151,13 @@ function sendReport() {
 }
 
 function contactUs() {
-    window.location.href = "http://ilatih.com/quiz/contact-us.html";
+    window.location.href = "http://localhost/quiz/contact-us.html";
 }
 
 function openFAQPage() {
-    window.location.href = "http://ilatih.com/quiz/faq.html";
+    window.location.href = "http://localhost/quiz/faq.html";
 }
 
 function openHelpPage() {
-    window.location.href = "http://ilatih.com/quiz/help.html";
+    window.location.href = "http://localhost/quiz/help.html";
 }
