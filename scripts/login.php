@@ -15,7 +15,8 @@ if ($results && $results->num_rows > 0) {
         $expiryDate = 14; //Expiry date, in days
         setcookie(session_name(), $_COOKIE[session_name()], time() + $expiryDate*24*60*60, $params["path"], $params["domain"], $params["secure"], $params["httponly"]);
     }*/
-    echo $_SESSION["userid"];
+    //echo $_SESSION["userid"];
+    echo 0;
     session_write_close();
 } else {
     echo -1;
