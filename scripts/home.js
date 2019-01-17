@@ -319,17 +319,20 @@ function openPrivacyPolicyPage() {
 }
 
 function selectLatihanPage() {
+    alert("Checking confirmation...");
     $.ajax({
         type: 'GET',
         url: PHP_PATH+'get-user.php',
         dataType: 'text',
         cache: false,
         success: function(a) {
+            alert(a);
             if (a < 0) {
                 // Error
             } else {
                 var user = JSON.parse(a);
                 var confirmed = user.confirmed;
+                alert("Confirmed: "+confirmed);
                 if (confirmed) {
                     showLatihanPage();
                 } else {
