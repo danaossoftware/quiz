@@ -6,7 +6,7 @@ include 'db.php';
 $results = $c->query("SELECT * FROM users WHERE email='" . $email . "' AND password='" . $password . "'");
 if ($results && $results->num_rows > 0) {
     session_start();
-    $_SESSION["dnquiz_user_id"] = $results->fetch_assoc()["id"];
+    $_SESSION["dnquiz_user_id"] = "5c2db02610213";//$results->fetch_assoc()["id"];
     $_SESSION["dnquiz_email"] = $email;
     $_SESSION["dnquiz_password"] = $password;
     /*if ($rememberMe) {
