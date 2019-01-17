@@ -12,6 +12,7 @@ $(document).ready(function() {
         window.location.href = "home-mobile.html";
         return;
     }*/
+    alert("Checking session...");
     $.ajax({
         type: 'GET',
         url: "http://ilatih.com/quiz/scripts/check-session.php",
@@ -59,6 +60,7 @@ function initialize() {
     } else {
         page = 0;
     }
+    alert("Page: "+page);
     if (page == 1) {
         $.ajax({
             type: 'GET',
