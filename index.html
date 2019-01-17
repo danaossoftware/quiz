@@ -3,12 +3,14 @@
     <head>
         <script src="scripts/jquery-3.3.1.min.js"></script>
         <script>
+            alert("Checking session...");
             $.ajax({
                 type: 'GET',
                 url: "http://ilatih.com/quiz/scripts/check-session.php",
                 dataType: 'text',
                 cache: false,
                 success: function(a) {
+                    alert(a);
                     if (a == 0) {
                         // Logged in
                         window.location = "home.html";
