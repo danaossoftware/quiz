@@ -7,7 +7,7 @@ $results = $c->query("SELECT * FROM users WHERE email='" . $email . "' AND passw
 if ($results && $results->num_rows > 0) {
     session_id("quiz");
     session_start();
-    $_SESSION["userid"] = "123abc";//$results->fetch_assoc()["id"];
+    $_SESSION["userid"] = $results->fetch_assoc()["id"];
     $_SESSION["email"] = $email;
     $_SESSION["password"] = $password;
     /*if ($rememberMe) {
