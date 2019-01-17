@@ -1,6 +1,5 @@
 <?php
 session_start();
-$_SESSION["dnquiz_user_id"] = "danaossoftware";
 echo $_SESSION["dnquiz_user_id"];
 session_write_close();
 return;
