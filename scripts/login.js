@@ -57,9 +57,7 @@ function login() {
         data: {'email': email, 'password': password, 'remember-me': rememberMe},
         cache: false,
         success: function(a) {
-            alert(a);
-            return;
-            /*var response = parseInt(a);
+            var response = parseInt(a);
             if (response == 0) {
                 window.location.href = "home.html";
             } else {
@@ -67,7 +65,7 @@ function login() {
                 $("#error").css("display", "block");
                 $(".login-form").css("height", "360px");
                 $("#login").css("margin-top", "10px");
-            }*/
+            }
         },
         error: function(a, b, c) {
 
