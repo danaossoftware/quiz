@@ -57,8 +57,6 @@ function login() {
         data: {'email': email, 'password': password, 'remember-me': rememberMe},
         cache: false,
         success: function(a) {
-            alert("Hello");
-            return;
             alert(a);
             return;
             /*var response = parseInt(a);
