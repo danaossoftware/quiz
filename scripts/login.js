@@ -30,8 +30,6 @@ $(document).ready(function() {
 });
 
 function login() {
-    alert("Hello");
-    return;
     $("#error").html("");
     $("#error").css("display", "none");
     $(".login-form").css("height", "330px");
@@ -59,6 +57,8 @@ function login() {
         data: {'email': email, 'password': password, 'remember-me': rememberMe},
         cache: false,
         success: function(a) {
+            alert("Hello");
+            return;
             alert(a);
             return;
             /*var response = parseInt(a);
