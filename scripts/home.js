@@ -119,6 +119,7 @@ function initialize() {
         window.location.href = "http://ilatih.com/quiz/contact-us.html";
     });
     $("#log-out").on("click", function() {
+        alert("Logging out...");
         $.ajax({
             type: 'GET',
             url: PHP_PATH+'logout.php',
