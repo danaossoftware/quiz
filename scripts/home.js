@@ -18,7 +18,7 @@ $(document).ready(function() {
         url: "http://ilatih.com/quiz/scripts/check-session.php",
         dataType: 'text',
         cache: false,
-        async: false,
+        async: true,
         success: function(a) {
             alert(a);
             if (a == 0) {
