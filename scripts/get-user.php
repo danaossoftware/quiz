@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 echo "Jancok uripku gak tau tenang. Asu. Lapo Allah gak tau ngekek i aku waktu sedikit untuk tenang? Pindah nak endi-endi ae yo gak tau tenang uripku.";
 session_write_close();
 return;
