@@ -1,11 +1,11 @@
-const PHP_PATH = "http://localhost/quiz/scripts/";
+const PHP_PATH = "http://ilatih.com/quiz/scripts/";
 var page = 0;
 var newsJSON;
 
 $(document).ready(function() {
     /*var isFirefox = typeof InstallTrigger !== 'undefined';
     if (!isFirefox) {
-        window.location.href = "http://localhost/quiz/browsernotsupported.html";
+        window.location.href = "http://ilatih.com/quiz/browsernotsupported.html";
         return;
     }*/
     /*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -14,7 +14,7 @@ $(document).ready(function() {
     }*/
     /*$.ajax({
         type: 'GET',
-        url: "http://localhost/quiz/scripts/check-session.php",
+        url: "http://ilatih.com/quiz/scripts/check-session.php",
         dataType: 'text',
         cache: false,
         async: true,
@@ -25,7 +25,7 @@ $(document).ready(function() {
                 initialize();
             } else if (a == -1) {
                 // Not logged in
-                window.location.href = "http://localhost/quiz";
+                window.location.href = "http://ilatih.com/quiz";
             }
         },
         error: function(a, b, c) {
@@ -77,7 +77,7 @@ function initialize() {
                     if (confirmed) {
                         showLatihanPage();
                     } else {
-                        window.location.href = "http://localhost/quiz/email-not-confirmed.html";
+                        window.location.href = "http://ilatih.com/quiz/email-not-confirmed.html";
                     }
                 }
             },
@@ -104,19 +104,19 @@ function initialize() {
         }
     });
     $("#home").on("click", function() {
-        window.location.href = "http://localhost/quiz/home.html";
+        window.location.href = "http://ilatih.com/quiz/home.html";
     });
     $("#latihan").on("click", function() {
-        window.location.href = "http://localhost/quiz/home.html?page=1";
+        window.location.href = "http://ilatih.com/quiz/home.html?page=1";
     });
     $("#profile").on("click", function() {
-        window.location.href = "http://localhost/quiz/profile.html";
+        window.location.href = "http://ilatih.com/quiz/profile.html";
     });
     $("#help").on("click", function() {
-        window.location.href = "http://localhost/quiz/help.html";
+        window.location.href = "http://ilatih.com/quiz/help.html";
     });
     $("#contact-us").on("click", function() {
-        window.location.href = "http://localhost/quiz/contact-us.html";
+        window.location.href = "http://ilatih.com/quiz/contact-us.html";
     });
     $("#log-out").on("click", function() {
         $.ajax({
@@ -125,7 +125,7 @@ function initialize() {
             dataType: 'text',
             cache: false,
             success: function(a) {
-                window.location.href = "http://localhost/quiz";
+                window.location.href = "http://ilatih.com/quiz";
             },
             error: function(a, b, c) {
                 alert(a+' '+c);
@@ -162,7 +162,7 @@ function initialize() {
                                     cache: false,
                                     success: function(a) {
                                         var courseName = JSON.parse(a).name;
-                                        var url = "http://localhost/quiz/rules.html?course_id="+permission.course_id+"&chapter_id="+permission.chapter_id;
+                                        var url = "http://ilatih.com/quiz/rules.html?course_id="+permission.course_id+"&chapter_id="+permission.chapter_id;
                                         $("#permission-notifications").append("<div style=\"margin-left: 30px; margin-right: 30px; margin-top: 20px; width: calc(100% - 60px); border-radius: 10px; border: 1px solid darkgreen; background-color: lightgreen; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; color: darkgreen; font-family: 'PalanquinBold';\">\n" +
                                             "Dosen telah mengizinkan Anda mengakses tes online mata kuliah "+courseName+" bab "+chapterName+". Klik di <a style='text-decoration: none;' href='"+url+"'>sini</a> untuk mulai ujian."+
                                             "</div>");
@@ -254,7 +254,7 @@ function loadCourses() {
                         var name = course.name;
                         items += "<td style=\"padding-left: 30px; padding-right: 30px;\">\n" +
                             "<div style=\"display: flex; flex-flow: row nowrap;\" class=\"course-link\">\n" +
-                            "<a onclick='return false;' style=\"text-decoration: none; color: black;\" href=\"http://localhost/quiz/chapters.html?course_id=" + course.id + "\">" + name + "</a>\n" +
+                            "<a onclick='return false;' style=\"text-decoration: none; color: black;\" href=\"http://ilatih.com/quiz/chapters.html?course_id=" + course.id + "\">" + name + "</a>\n" +
                             "</div>\n" +
                             "</td>";
                         k++;
@@ -299,23 +299,23 @@ function showLatihanPage() {
 }
 
 function contactUs() {
-    window.location.href = "http://localhost/quiz/contact-us.html";
+    window.location.href = "http://ilatih.com/quiz/contact-us.html";
 }
 
 function openFAQPage() {
-    window.location.href = "http://localhost/quiz/faq.html";
+    window.location.href = "http://ilatih.com/quiz/faq.html";
 }
 
 function openHelpPage() {
-    window.location.href = "http://localhost/quiz/help.html";
+    window.location.href = "http://ilatih.com/quiz/help.html";
 }
 
 function openAboutPage() {
-    window.location.href = "http://localhost/quiz/about.html";
+    window.location.href = "http://ilatih.com/quiz/about.html";
 }
 
 function openPrivacyPolicyPage() {
-    window.location.href = "http://localhost/quiz/privacy-policy.html";
+    window.location.href = "http://ilatih.com/quiz/privacy-policy.html";
 }
 
 function selectLatihanPage() {
@@ -336,7 +336,7 @@ function selectLatihanPage() {
                 if (confirmed) {
                     showLatihanPage();
                 } else {
-                    window.location.href = "http://localhost/quiz/email-not-confirmed.html";
+                    window.location.href = "http://ilatih.com/quiz/email-not-confirmed.html";
                 }
             }
         }

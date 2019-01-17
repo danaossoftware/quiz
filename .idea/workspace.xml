@@ -2,17 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browsernotsupported.html" beforeDir="false" afterPath="$PROJECT_DIR$/browsernotsupported.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapters-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapters-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapters.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirm-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirm-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/edit-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password-changed.html" beforeDir="false" afterPath="$PROJECT_DIR$/password-changed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-email-sent.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-email-sent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/PHPMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/PHPMailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/a.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/add-photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/add-photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/chapters.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/chapters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/check-permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/check-permission.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/check-session.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/check-session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/confirm-email.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/confirm-email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/contact-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/contact-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/courses-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/courses-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/edit-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/edit-profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/email-not-confirmed.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/email-not-confirmed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/forgot-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/forgot-password.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/get-session.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/get-session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/get-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/get-user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/maintain-session.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/maintain-session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/mobile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/poll-permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/poll-permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/privacy-policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/privacy-policy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/remove-permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/remove-permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/reset-email-sent.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reset-email-sent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/reset-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reset-password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rules-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rules-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/score-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/score-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/send-reset-email.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-reset-email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/send-verification-email.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-verification-email.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/send-verification-email.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-verification-email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/signup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tos.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send-verification-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/send-verification-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tos.html" beforeDir="false" afterPath="$PROJECT_DIR$/tos.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/db.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -53,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -117,7 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Jawaban Anda salah</find>
       <find>your s</find>
       <find>your score</find>
       <find>selamat, hasil</find>
@@ -147,6 +202,7 @@
       <find>il</find>
       <find>refresh</find>
       <find>session_start();</find>
+      <find>localhost</find>
     </findStrings>
     <replaceStrings>
       <replace>-50px;</replace>
@@ -174,16 +230,16 @@
       <replace>reset-password</replace>
       <replace>password-changed</replace>
       <replace>email-not-confirmed</replace>
-      <replace>ilatih.com</replace>
       <replace>http://ilatih.com/ujicoba</replace>
       <replace>quiz</replace>
       <replace />
       <replace>localhost</replace>
+      <replace>ilatih.com</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Dana\Documents\WebFiles\quiz\css</dir>
-      <dir>C:\Users\Dana\Documents\WebFiles\quiz</dir>
       <dir>C:\Users\Dana\Documents\WebFiles\quiz\scripts</dir>
+      <dir>C:\Users\Dana\Documents\WebFiles\quiz</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -204,7 +260,6 @@
         <option value="$PROJECT_DIR$/home-mobile.html" />
         <option value="$PROJECT_DIR$/scripts/home-mobile.js" />
         <option value="$PROJECT_DIR$/email-not-confirmed.html" />
-        <option value="$PROJECT_DIR$/scripts/db.php" />
         <option value="$PROJECT_DIR$/db.php" />
         <option value="$PROJECT_DIR$/scripts/mobile.js" />
         <option value="$PROJECT_DIR$/about.html" />
@@ -230,7 +285,6 @@
         <option value="$PROJECT_DIR$/scripts/rules.js" />
         <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/rules.html" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/scripts/home.js" />
         <option value="$PROJECT_DIR$/scripts/check-session.php" />
         <option value="$PROJECT_DIR$/scripts/get-user.php" />
@@ -243,6 +297,8 @@
         <option value="$PROJECT_DIR$/scripts/remove-permission.php" />
         <option value="$PROJECT_DIR$/scripts/check-permission.php" />
         <option value="$PROJECT_DIR$/scripts/poll-permission.php" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/scripts/db.php" />
       </list>
     </option>
   </component>
@@ -370,12 +426,12 @@
       <workItem from="1547618054082" duration="4000" />
       <workItem from="1547630845778" duration="3748000" />
       <workItem from="1547642981334" duration="1375000" />
-      <workItem from="1547707563442" duration="2275000" />
+      <workItem from="1547707563442" duration="2293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216765000" />
+    <option name="totallyTimeSpent" value="216783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -850,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -916,6 +965,13 @@
             <element signature="n#style#0;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
