@@ -1,6 +1,4 @@
 <?php
-echo "Hello";
-return;
 session_id("quiz");
 session_start();
 unset($_SESSION["userid"]);
@@ -10,3 +8,5 @@ $_SESSION["userid"] = "";
 $_SESSION["email"] = "";
 $_SESSION["password"] = "";
 session_destroy();
+echo "Hello";
+return;
