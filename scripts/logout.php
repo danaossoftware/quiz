@@ -1,6 +1,6 @@
 <?php
 try {
-    session_start();
+    //session_start();
 } catch (Exception $e) {
     echo $e->getMessage();
     return;
@@ -11,4 +11,4 @@ unset($_SESSION["dnquiz_password"]);
 $_SESSION["dnquiz_user_id"] = "";
 $_SESSION["dnquiz_email"] = "";
 $_SESSION["dnquiz_password"] = "";
-session_destroy();
+//session_destroy();
