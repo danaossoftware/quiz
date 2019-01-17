@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/check-permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/check-permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/get-session.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/get-session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/get-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/get-user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/maintain-session.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/maintain-session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/poll-permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/poll-permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/remove-permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/remove-permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/send-verification-email.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send-verification-email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/signup.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="98" column="10" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
@@ -34,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -87,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -116,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>your s</find>
       <find>your score</find>
       <find>selamat, hasil</find>
       <find>Soal terjawab</find>
@@ -146,9 +154,9 @@
       <find>refresh</find>
       <find>session_start();</find>
       <find>localhost</find>
+      <find>session_abort();</find>
     </findStrings>
     <replaceStrings>
-      <replace>-50px;</replace>
       <replace>-40px;</replace>
       <replace>-35px;</replace>
       <replace>totalQuestions</replace>
@@ -178,6 +186,7 @@
       <replace />
       <replace>localhost</replace>
       <replace>ilatih.com</replace>
+      <replace>session_write_close();</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Dana\Documents\WebFiles\quiz\css</dir>
@@ -238,10 +247,10 @@
         <option value="$PROJECT_DIR$/scripts/poll-permission.php" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/scripts/db.php" />
-        <option value="$PROJECT_DIR$/scripts/login.php" />
-        <option value="$PROJECT_DIR$/scripts/home.js" />
         <option value="$PROJECT_DIR$/scripts/check-session.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scripts/home.js" />
+        <option value="$PROJECT_DIR$/scripts/login.php" />
       </list>
     </option>
   </component>
@@ -369,12 +378,12 @@
       <workItem from="1547618054082" duration="4000" />
       <workItem from="1547630845778" duration="3748000" />
       <workItem from="1547642981334" duration="1375000" />
-      <workItem from="1547707563442" duration="3773000" />
+      <workItem from="1547707563442" duration="3838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218263000" />
+    <option name="totallyTimeSpent" value="218328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -849,10 +858,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/check-session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="98" column="10" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
@@ -863,27 +886,6 @@
             <element signature="n#style#0;n#div#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/check-session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -911,10 +913,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scripts/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>

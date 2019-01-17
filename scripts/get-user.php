@@ -1,7 +1,7 @@
 <?php
 session_start();
 echo "Fuck you";
-session_abort();
+session_write_close();
 return;
 $userId = $_SESSION["dnquiz_user_id"];
 echo $userId;

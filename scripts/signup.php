@@ -28,9 +28,9 @@ if ($c->query("INSERT INTO users (id, email, password, idnumber) VALUES ('" . $u
         $expiryDate = 14; //Expiry date, in days
         setcookie(session_name(), $_COOKIE[session_name()], time() + $expiryDate*24*60*60, $params["path"], $params["domain"], $params["secure"], $params["httponly"]);
     }
-    session_abort();
+    session_write_close();
     echo 0;
 } else {
-    session_abort();
+    session_write_close();
     echo -2;
 }

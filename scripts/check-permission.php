@@ -11,4 +11,4 @@ if ($results && $results->num_rows > 0) {
     $c->query("INSERT INTO permissions (id, course_id, chapter_id, user_id, granted) VALUES ('" . uniqid() . "', '" . $courseId . "', '" . $chapterId . "', '" . $userId . "', 0)");
     echo -1;
 }
-session_abort();
+session_write_close();

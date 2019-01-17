@@ -2,4 +2,4 @@
 $userId = $_GET["user-id"];
 session_start();
 $_SESSION["dnquiz_user_id"] = $userId;
-session_abort();
+session_write_close();

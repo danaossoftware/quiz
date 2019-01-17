@@ -103,8 +103,6 @@ function initialize() {
             }
         }
     });
-    alert("Hello, world 4");
-    return;
     $("#home").on("click", function() {
         window.location.href = "http://ilatih.com/quiz/home.html";
     });

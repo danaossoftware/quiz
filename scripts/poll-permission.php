@@ -17,12 +17,12 @@ if ($results && $results->num_rows > 0) {
                         array_push($permissions, $row);
                     }
                     echo json_encode($permissions);
-                    session_abort();
+                    session_write_close();
                     return;
                 }
             }
         } else {
-            session_abort();
+            session_write_close();
             echo -1;
             return;
         }
@@ -33,9 +33,9 @@ if ($results && $results->num_rows > 0) {
         array_push($permissions, $row);
     }
     echo json_encode($permissions);
-    session_abort();
+    session_write_close();
     return;
 } else {
-    session_abort();
+    session_write_close();
     echo -1;
 }
