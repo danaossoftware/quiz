@@ -30,6 +30,8 @@ $(document).ready(function() {
 });
 
 function login() {
+    alert("Hello");
+    return;
     $("#error").html("");
     $("#error").css("display", "none");
     $(".login-form").css("height", "330px");
