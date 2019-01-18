@@ -21,9 +21,9 @@ $(document).ready(function() {
         }
     });
     $("#start-exam").on("click", function() {
-        $("#access-code").val("");
+        //$("#access-code").val("");
         $("#enter-code-container").css("display", "flex");
-        $("#enter-code-cancel").on("click", function() {
+        /*$("#enter-code-cancel").on("click", function() {
             $("#enter-code-container").css("display", "none");
         });
         $("#enter-code-ok").on("click", function() {
@@ -48,6 +48,6 @@ $(document).ready(function() {
                     }
                 }
             });
-        });
+        });*/
     });
 });
