@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="406" column="53" lean-forward="true" selection-start-line="406" selection-start-column="53" selection-end-line="406" selection-end-column="53" />
+              <caret line="406" column="34" lean-forward="true" selection-start-line="406" selection-start-column="34" selection-end-line="406" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -389,12 +389,12 @@
       <workItem from="1547707563442" duration="4291000" />
       <workItem from="1547730039372" duration="3508000" />
       <workItem from="1547739489280" duration="3965000" />
-      <workItem from="1547796462801" duration="810000" />
+      <workItem from="1547796462801" duration="1884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227064000" />
+    <option name="totallyTimeSpent" value="228138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -948,7 +948,7 @@
     <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="406" column="53" lean-forward="true" selection-start-line="406" selection-start-column="53" selection-end-line="406" selection-end-column="53" />
+          <caret line="406" column="34" lean-forward="true" selection-start-line="406" selection-start-column="34" selection-end-line="406" selection-end-column="34" />
         </state>
       </provider>
     </entry>
