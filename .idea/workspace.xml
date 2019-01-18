@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rules-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/rules-mobile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="-323">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -103,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/quiz-mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="1071">
               <caret line="333" column="50" lean-forward="true" selection-start-line="333" selection-start-column="50" selection-end-line="333" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -137,6 +137,15 @@
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/rules-mobile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -227,7 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/reset-password.js" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/mobile.html" />
         <option value="$PROJECT_DIR$/scripts/email-not-confirmed.js" />
@@ -278,6 +286,7 @@
         <option value="$PROJECT_DIR$/scripts/quiz.js" />
         <option value="$PROJECT_DIR$/scripts/add-question-data.php" />
         <option value="$PROJECT_DIR$/scripts/home.js" />
+        <option value="$PROJECT_DIR$/scripts/rules-mobile.js" />
       </list>
     </option>
   </component>
@@ -408,12 +417,12 @@
       <workItem from="1547707563442" duration="4291000" />
       <workItem from="1547730039372" duration="3508000" />
       <workItem from="1547739489280" duration="3965000" />
-      <workItem from="1547796462801" duration="2812000" />
+      <workItem from="1547796462801" duration="3288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229066000" />
+    <option name="totallyTimeSpent" value="229542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -445,13 +454,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -864,45 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/quiz-mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="333" column="50" lean-forward="true" selection-start-line="333" selection-start-column="50" selection-end-line="333" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#171#177#1" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#332#338#1" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#170#176#1" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#331#337#1" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#171#177#1" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#332#338#1" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#171#177#1" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#332#338#1" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/score.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -958,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="-323">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -968,6 +931,52 @@
             <element signature="n#style#0;n#div#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/quiz-mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="333" column="50" lean-forward="true" selection-start-line="333" selection-start-column="50" selection-end-line="333" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#171#177#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#332#338#1" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#170#176#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#331#337#1" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#171#177#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#332#338#1" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#171#177#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#332#338#1" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rules-mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>

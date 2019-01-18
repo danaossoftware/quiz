@@ -3,6 +3,7 @@ $(document).ready(function() {
     params = params.substr(1, params.length);
     var courseId = params.split("&")[0].split("=")[1];
     var chapterId = params.split("&")[1].split("=")[1];
+    alert("Hello, world");
     $.ajax({
         type: 'GET',
         url: PHP_PATH+'get-settings.php',
