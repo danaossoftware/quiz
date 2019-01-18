@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="" />
+    <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/scripts/add-question-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/add-question-data.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -72,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="84" lean-forward="true" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+            <state relative-caret-position="425">
+              <caret line="25" column="187" lean-forward="true" selection-start-line="25" selection-start-column="187" selection-end-line="25" selection-end-column="187" />
             </state>
           </provider>
         </entry>
@@ -257,8 +259,8 @@
         <option value="$PROJECT_DIR$/scripts/home.js" />
         <option value="$PROJECT_DIR$/rules.html" />
         <option value="$PROJECT_DIR$/scripts/quiz-mobile.js" />
-        <option value="$PROJECT_DIR$/scripts/add-question-data.php" />
         <option value="$PROJECT_DIR$/scripts/quiz.js" />
+        <option value="$PROJECT_DIR$/scripts/add-question-data.php" />
       </list>
     </option>
   </component>
@@ -389,12 +391,12 @@
       <workItem from="1547707563442" duration="4291000" />
       <workItem from="1547730039372" duration="3508000" />
       <workItem from="1547739489280" duration="3965000" />
-      <workItem from="1547796462801" duration="1884000" />
+      <workItem from="1547796462801" duration="2109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228138000" />
+    <option name="totallyTimeSpent" value="228363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -899,13 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="84" lean-forward="true" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/score.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -949,6 +944,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="406" column="34" lean-forward="true" selection-start-line="406" selection-start-column="34" selection-end-line="406" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="187" lean-forward="true" selection-start-line="25" selection-start-column="187" selection-end-line="25" selection-end-column="187" />
         </state>
       </provider>
     </entry>
