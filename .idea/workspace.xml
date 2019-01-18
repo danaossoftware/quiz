@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/add-question-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/add-question-data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/quiz-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz-mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="392" column="21" lean-forward="true" selection-start-line="392" selection-start-column="21" selection-end-line="392" selection-end-column="21" />
+            <state relative-caret-position="356">
+              <caret line="409" column="34" lean-forward="true" selection-start-line="409" selection-start-column="34" selection-end-line="409" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/score.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="78" column="6" lean-forward="true" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+            <state relative-caret-position="203">
+              <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -75,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="391">
+              <caret line="23" column="84" lean-forward="true" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -136,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>home-content</find>
-      <find>uji sekarang</find>
       <find>showlat</find>
       <find>il</find>
       <find>refresh</find>
@@ -166,6 +163,8 @@
       <find>question_data</find>
       <find>add-question-data.php</find>
       <find>$chapterName</find>
+      <find>add-ques</find>
+      <find>chapter-id</find>
     </findStrings>
     <replaceStrings>
       <replace>totalQuestions</replace>
@@ -233,7 +232,6 @@
         <option value="$PROJECT_DIR$/scripts/score.js" />
         <option value="$PROJECT_DIR$/scripts/get-course.php" />
         <option value="$PROJECT_DIR$/scripts/get-chapter.php" />
-        <option value="$PROJECT_DIR$/scripts/quiz.js" />
         <option value="$PROJECT_DIR$/contact-us.html" />
         <option value="$PROJECT_DIR$/scripts/add-report.php" />
         <option value="$PROJECT_DIR$/scripts/mail.php" />
@@ -262,6 +260,7 @@
         <option value="$PROJECT_DIR$/rules.html" />
         <option value="$PROJECT_DIR$/scripts/quiz-mobile.js" />
         <option value="$PROJECT_DIR$/scripts/add-question-data.php" />
+        <option value="$PROJECT_DIR$/scripts/quiz.js" />
       </list>
     </option>
   </component>
@@ -392,12 +391,12 @@
       <workItem from="1547707563442" duration="4291000" />
       <workItem from="1547730039372" duration="3508000" />
       <workItem from="1547739489280" duration="3965000" />
-      <workItem from="1547796462801" duration="683000" />
+      <workItem from="1547796462801" duration="793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226937000" />
+    <option name="totallyTimeSpent" value="227047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -856,52 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="392" column="21" lean-forward="true" selection-start-line="392" selection-start-column="21" selection-end-line="392" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/score.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="78" column="6" lean-forward="true" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/get-question-data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -950,8 +903,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="391">
+          <caret line="23" column="84" lean-forward="true" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/score.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="409" column="34" lean-forward="true" selection-start-line="409" selection-start-column="34" selection-end-line="409" selection-end-column="34" />
         </state>
       </provider>
     </entry>

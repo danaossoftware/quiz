@@ -406,6 +406,8 @@ function toNextQuestion() {
                                     'answer-types': answerTypes,
                                     'scores': scores,
                                     'answers': userAnswers,
+                                    'chapter-id': chapterId,
+                                    'course-id': courseId,
                                     'wrong-answer-positions': wrongAnswerPositions
                                 },
                                 cache: false,
