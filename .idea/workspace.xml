@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/add-question-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/add-question-data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
-    </list>
+    <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,12 +356,12 @@
       <workItem from="1547739489280" duration="3965000" />
       <workItem from="1547796462801" duration="4960000" />
       <workItem from="1547802887963" duration="69000" />
-      <workItem from="1547805315044" duration="414000" />
+      <workItem from="1547805315044" duration="500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231697000" />
+    <option name="totallyTimeSpent" value="231783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
