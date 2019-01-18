@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f460d1-a5da-4fbb-9a77-b2b7b8b3993e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/add-question-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/add-question-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,20 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="407" column="59" lean-forward="true" selection-start-line="407" selection-start-column="59" selection-end-line="407" selection-end-column="59" />
+            <state relative-caret-position="271">
+              <caret line="414" column="45" selection-start-line="414" selection-start-column="45" selection-end-line="414" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="2">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -221,11 +221,11 @@
         <option value="$PROJECT_DIR$/scripts/db.php" />
         <option value="$PROJECT_DIR$/rules.html" />
         <option value="$PROJECT_DIR$/scripts/quiz-mobile.js" />
-        <option value="$PROJECT_DIR$/scripts/quiz.js" />
         <option value="$PROJECT_DIR$/scripts/home.js" />
         <option value="$PROJECT_DIR$/scripts/rules-mobile.js" />
         <option value="$PROJECT_DIR$/rules-mobile.html" />
         <option value="$PROJECT_DIR$/scripts/add-question-data.php" />
+        <option value="$PROJECT_DIR$/scripts/quiz.js" />
       </list>
     </option>
   </component>
@@ -358,12 +358,12 @@
       <workItem from="1547739489280" duration="3965000" />
       <workItem from="1547796462801" duration="4960000" />
       <workItem from="1547802887963" duration="69000" />
-      <workItem from="1547805315044" duration="138000" />
+      <workItem from="1547805315044" duration="237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231421000" />
+    <option name="totallyTimeSpent" value="231520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -921,17 +921,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
+    <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="407" column="59" lean-forward="true" selection-start-line="407" selection-start-column="59" selection-end-line="407" selection-end-column="59" />
+        <state relative-caret-position="2">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
+    <entry file="file://$PROJECT_DIR$/scripts/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="271">
+          <caret line="414" column="45" selection-start-line="414" selection-start-column="45" selection-end-line="414" selection-end-column="45" />
         </state>
       </provider>
     </entry>

@@ -412,16 +412,7 @@ function toNextQuestion() {
                                 },
                                 cache: false,
                                 success: function (a) {
-                                    $.ajax({
-                                        type: 'GET',
-                                        url: PHP_PATH+'remove-permission.php',
-                                        data: {'chapter-id': chapterId, 'course-id': courseId},
-                                        dataType: 'text',
-                                        cache: false,
-                                        success: function(a) {
-                                            window.location.href = "http://ilatih.com/quiz/score.html";
-                                        }
-                                    });
+                                    alert(a);
                                 },
                                 error: function (a, b, c) {
                                     alert(b + ' ' + c);
