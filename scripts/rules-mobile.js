@@ -21,6 +21,7 @@ $(document).ready(function() {
         }
     });
     $("#start-exam").on("click", function() {
+        alert("Starting exam...");
         //$("#access-code").val("");
         $("#enter-code-container").css("display", "flex");
         /*$("#enter-code-cancel").on("click", function() {
