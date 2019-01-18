@@ -27,3 +27,4 @@ if ($results && $results->num_rows > 0) {
 } else {
     $c->query("INSERT INTO question_data (id, user_id, bab, mata_kuliah, score, data) VALUES ('" . uniqid() . "', '" . $userId . "', '" . $chapterName . "', '" . $courseName . "', " . $scores . ", '" . $json . "')");
 }
+echo $chapterName . "&" . $courseId;

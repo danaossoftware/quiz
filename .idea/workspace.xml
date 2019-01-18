@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="461">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -100,7 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>il</find>
       <find>refresh</find>
       <find>session_abort();</find>
       <find>session_write_close</find>
@@ -130,6 +129,7 @@
       <find>chapter-id</find>
       <find>add-question-data.php</find>
       <find>enter-code-container</find>
+      <find>$chapterId</find>
     </findStrings>
     <replaceStrings>
       <replace>totalQuestions</replace>
@@ -358,12 +358,12 @@
       <workItem from="1547739489280" duration="3965000" />
       <workItem from="1547796462801" duration="4960000" />
       <workItem from="1547802887963" duration="69000" />
-      <workItem from="1547805315044" duration="24000" />
+      <workItem from="1547805315044" duration="138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231307000" />
+    <option name="totallyTimeSpent" value="231421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -930,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/add-question-data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="461">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
