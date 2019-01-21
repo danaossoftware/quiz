@@ -77,14 +77,18 @@ function initialize() {
             $("#time-limit").html("Batas waktu: "+timeLimit);
             setTimeout(function() {
                 timeLimitSec--;
+                if (timeLimitSec <= 0) {
+                    $("#time-out-container").css("display", "flex");
+                    return;
+                }
                 var date = new Date(null);
                 date.setSeconds(timeLimitSec);
                 $("#time-limit").html("Batas waktu: "+date.toISOString().substr(11, 8));
                 setTimeout(this, 1000);
             }, 1000);
+            loadQuestions();
         }
     });
-    loadQuestions();
     setItemCheckBoxListener();
 }
 
@@ -487,4 +491,51 @@ function backToHome() {
     $("#prompt-title").html("Kembali ke Beranda");
     $("#prompt-text").html("Apakah Anda yakin ingin menyelesaikan tes ini dan kembali ke Beranda?")
     $("#prompt").css("display", "flex");
+}
+
+function goToScorePage() {
+    $.ajax({
+        type: 'GET',
+        url: PHP_PATH + 'get-session.php',
+        dataType: 'text',
+        cache: false,
+        success: function (a) {
+            var session = JSON.parse(a);
+            var userId = session.userId;
+            $.ajax({
+                type: 'POST',
+                url: PHP_PATH + 'add-question-data.php',
+                dataType: 'text',
+                data: {
+                    'user-id': userId,
+                    'question-ids': questionIds,
+                    'answer-types': answerTypes,
+                    'scores': scores,
+                    'answers': userAnswers,
+                    'chapter-id': chapterId,
+                    'course-id': courseId,
+                    'wrong-answer-positions': wrongAnswerPositions
+                },
+                cache: false,
+                success: function (a) {
+                    $.ajax({
+                        type: 'GET',
+                        url: PHP_PATH+'remove-permission.php',
+                        data: {'chapter-id': chapterId, 'course-id': courseId},
+                        dataType: 'text',
+                        cache: false,
+                        success: function(a) {
+                            window.location.href = "http://ilatih.com/quiz/score.html";
+                        }
+                    });
+                },
+                error: function (a, b, c) {
+                    alert(b + ' ' + c);
+                }
+            });
+        },
+        error: function (a, b, c) {
+            alert(b + ' ' + c);
+        }
+    });
 }
