@@ -80,6 +80,7 @@ function initialize() {
                 var date = new Date(null);
                 date.setSeconds(timeLimitSec);
                 $("#time-limit").html("Batas waktu: "+date.toISOString().substr(11, 8));
+                setTimeout(this, 1000);
             }, 1000);
         }
     });
