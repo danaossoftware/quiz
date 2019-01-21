@@ -75,7 +75,7 @@ function initialize() {
             }
             timeLimit += ":00";
             $("#time-limit").html("Batas waktu: "+timeLimit);
-            setTimeout(function() {
+            var timerFunction = function() {
                 timeLimitSec--;
                 if (timeLimitSec <= 0) {
                     $("#time-out-container").css("display", "flex");
@@ -84,12 +84,13 @@ function initialize() {
                 var date = new Date(null);
                 date.setSeconds(timeLimitSec);
                 $("#time-limit").html("Batas waktu: "+date.toISOString().substr(11, 8));
-                setTimeout(this, 1000);
-            }, 1000);
+                setTimeout(timerFunction, 1000);
+            };
+            setTimeout(timerFunction, 1000);
             loadQuestions();
+            setItemCheckBoxListener();
         }
     });
-    setItemCheckBoxListener();
 }
 
 function loadQuestions() {
