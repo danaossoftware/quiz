@@ -79,6 +79,7 @@ function loadQuestions() {
         dataType: 'text',
         cache: false,
         success: function (a) {
+            a = decode_utf8(a);
             if (a < 0) {
                 // Error
             } else {
@@ -91,6 +92,10 @@ function loadQuestions() {
             alert(b + ' ' + c);
         }
     });
+}
+
+function decode_utf8(s) {
+    return decodeURIComponent(escape(s));
 }
 
 function loadQuestion(index) {
