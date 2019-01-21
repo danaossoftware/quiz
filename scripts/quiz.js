@@ -60,6 +60,29 @@ function initialize() {
     currentQuestion = window.localStorage.getItem("current-question");
     currentQuestion = 0;
     //$("#answer-result-panel").find("*").remove();
+    $.ajax({
+        type: 'GET',
+        url: PHP_PATH+'get-chapter-info.php',
+        data: {'chapter-id': chapterId},
+        dataType: 'text',
+        cache: false,
+        success: function (a) {
+            var chapter = JSON.parse(a);
+            var timeLimit = chapter["time_limit"];
+            var timeLimitSec = timeLimit*60;
+            if (timeLimit < 10) {
+                timeLimit = "0"+timeLimit;
+            }
+            timeLimit += ":00";
+            $("#time-limit").html("Batas waktu: "+timeLimit);
+            setTimeout(function() {
+                timeLimitSec--;
+                var date = new Date(null);
+                date.setSeconds(timeLimitSec);
+                $("#time-limit").html("Batas waktu: "+date.toISOString().substr(11, 8));
+            }, 1000);
+        }
+    });
     loadQuestions();
     setItemCheckBoxListener();
 }
