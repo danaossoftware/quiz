@@ -29,7 +29,7 @@
             <div class="menu-item">HUBUNGI KAMI</div>
             <div class="menu-item">KELUAR</div>
         </div>
-        <div style="position: absolute; top: 50px; left: 0; width: 100%; height: 100%;">
+        <div style="position: absolute; top: 50px; left: 0; width: 100%; display: flex; flex-flow: column nowrap;">
             <div id="confirm-container" style="width: 100%; display: none;">
                 <div style="border-radius: 5px; background-color: #ffc3b8; border: 1px solid #ff2725; margin-left: 20px; margin-right: 20px; margin-top: 5px; padding: 5px;">
                     <div style="color: #ff2725; font-family: 'PalanquinBold', 'Arial Black';">
@@ -40,23 +40,42 @@
             <div style="width: 100%; display: flex; justify-content: center; margin-top: 10px;">
                 <button onclick="window.location.href='http://ilatih.com/quiz/courses-mobile.html'" class="button4" style="padding-left: 20px; padding-right: 20px;">Ujian Sekarang</button>
             </div>
-            <div style="width: 100%; height: 40px; position: relative;">
-                <div style="color: black; font-family: PalanquinBold, Arial; font-size: 18px; margin-top: 10px; margin-left: 20px; position: absolute; top: 0; left: 0;">
-                    BERITA KAMPUS
+            <div style="width: 100%;">
+                <div style="color: black; font-family: PalanquinBold, Arial; font-size: 18px; margin-left: 30px; margin-top: 20px;">
+                    AKTIVITAS TERAKHIR
                 </div>
-                <div onclick="window.open('http://newsapi.org/', '_blank').focus()" style="position: absolute; top: 0; right: 0; display: flex; justify-content: flex-end; text-decoration: underline; color: #888888; margin-top: 10px; margin-right: 20px; font-size: 13px; cursor: pointer;">
-                    <i>Credit</i>
+                <div id="activities" style="margin-right: 20px; margin-left: 30px; margin-top: 5px;">
+                    <div class="card">
+                        <div style="color: black; font-weight: bold; font-family: SegoeUI, 'Arial Black'; font-size: 27px;">
+                            Uji Kemampuanmu Sekarang!
+                        </div>
+                        <div>Jadilah yang terdepan di antara teman-temanmu! Uji kemampuanmu dalam bidang
+                            akademis
+                            dan buktikanlah bahwa memang kamulah yang terbaik. Buat dosen-dosen memuji
+                            kemampuanmu,
+                            dan menarik perhatian perusahaan yang bekerja dalam bidang yang sama sesuai yang
+                            kamu
+                            pelajari. Mudah, simpel dan gratis!
+                        </div>
+                        <div style="width: 100%; margin-top: 10px; display: flex; justify-content: flex-start; flex-flow: row nowrap;">
+                            <button onclick="selectLatihanPage()" class="button3" style="height: 42px;">Uji Sekarang</button>
+                            <button onclick="window.open('http://ilatih.com', '_blank').focus()" class="button4" style="height: 42px; margin-left: 10px;">Belajar</button>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 10px;">
+                        <div style="color: black; font-weight: bold; font-family: SegoeUI, 'Arial Black'; font-size: 27px;">
+                            Lengkapi profilmu
+                        </div>
+                        <div>Sepertinya profil kamu belum lengkap. Ayo luangkan sedikit waktumu untuk mengisi
+                            profilmu, agar orang lain tahu tentang prestasimu.
+                        </div>
+                        <div style="width: 100%; margin-top: 10px; display: flex; justify-content: flex-start; flex-flow: row nowrap;">
+                            <button onclick="window.location.href='http://ilatih.com/quiz/edit-profile.html'" class="button5" style="height: 42px;">Lengkapi Profil</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="news" style="margin-top: -5px; margin-left: 20px;">
-                <!--<div class="card">
-                    <div style="color: black; font-family: SegoeUILight, Arial; font-size: 17px; text-decoration: underline;">
-                        Jerry Lorenzo Designed Special Fear of God 1s for His Alma Mater
-                    </div>
-                    <div style="color: black; font-family: SegoeUILight, Arial; font-size: 14px; margin-top: 5px;">
-                        Ending 2018 with a bang, Fear of God-founder Jerry Lorenzo has taken to his personal Instagram account to showcase a new batch of Fear of God 1s, done in collaboration with Nike Basketball. Crafted from a mostly mesh upper, which differs from the originals, t…
-                    </div>
-                </div>-->
+            <!--<div id="news" style="margin-top: -5px; margin-left: 20px;">
                 <div class="card" style="margin-top: 10px; margin-right: 20px;">
                     <div class="news-placeholder">&nbsp;</div>
                     <div class="news-placeholder" style="width: 250px; height: 10px; margin-top: 10px;">&nbsp;</div>
@@ -81,7 +100,7 @@
                     <div class="news-placeholder" style="width: 200px; height: 10px; margin-top: 10px;">&nbsp;</div>
                     <div class="news-placeholder" style="width: 230px; height: 10px; margin-top: 10px;">&nbsp;</div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </body>
 </html>
